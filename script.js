@@ -7,18 +7,20 @@ const state = {
     reibun: [],
     vocab: [],
     renshuuA: [],
-    grammarNotes: []
+    grammarNotes: [],
+    kaiwa: []
   }
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    const [learnCsv, reibunCsv, vocabCsv, renshuuCsv, grammarNotesCsv] = await Promise.all([
-      fetch('./Dataset/Learn_Japanese_Dataset.csv').then((response) => response.text()),
-      fetch('./Dataset/Reibun_MinnaNoNihongo.csv').then((response) => response.text()),
-      fetch('./Dataset/Vocabs_MinnaNoNihongo.csv').then((response) => response.text()),
-      fetch('./Dataset/Renshuu_A_MinnaNoNihongo.csv').then((response) => response.text()),
-      fetch('./Dataset/Grammar_Notes.csv').then((response) => response.text())
+    const [learnCsv, reibunCsv, vocabCsv, renshuuCsv, grammarNotesCsv, kaiwaCsv] = await Promise.all([
+      fetch('./Dataset/Bunkei_Dataset.csv').then((response) => response.text()),
+      fetch('./Dataset/Reibun_Dataset.csv').then((response) => response.text()),
+      fetch('./Dataset/Vocabs_Dataset.csv').then((response) => response.text()),
+      fetch('./Dataset/Renshuu_A_Dataset.csv').then((response) => response.text()),
+      fetch('./Dataset/Grammar_Notes.csv').then((response) => response.text()),
+      fetch('./Dataset/Kaiwa_Dataset.csv').then((response) => response.text())
     ]);
 
     state.workbook.learn = parseCsv(learnCsv);
@@ -26,10 +28,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     state.workbook.vocab = parseCsv(vocabCsv);
     state.workbook.renshuuA = parseCsv(renshuuCsv);
     state.workbook.grammarNotes = parseCsv(grammarNotesCsv);
+    state.workbook.kaiwa = parseCsv(kaiwaCsv);
 
     renderLessonNav();
     renderTabBar();
     renderLessonContent();
+    document.addEventListener('keydown', handleImageOverlayKeydown);
   } catch (error) {
     const content = document.getElementById('lesson-content');
     content.innerHTML = `
@@ -70,7 +74,7 @@ function renderLessonNav() {
 }
 
 function renderTabBar() {
-  const tabs = ['சொற்றொடர் அமைப்பு', 'உதாரணச் சொற்றொடர்', 'பயிற்சி A', 'சொற்கள்', 'இலக்கணக் குறிப்பு'];
+  const tabs = ['சொற்றொடர் அமைப்பு', 'உதாரணச் சொற்றொடர்', 'பயிற்சி A', 'சொற்கள்', 'உரையாடல்', 'இலக்கணக் குறிப்பு'];
   const bar = document.getElementById('tab-bar');
 
   bar.innerHTML = tabs
@@ -99,10 +103,10 @@ function renderLessonContent() {
 
   switch (state.activeTab) {
     case 'சொற்றொடர் அமைப்பு':
-      content.innerHTML = renderSection('文型', getRowsForSection('Bunkei'));
+      content.innerHTML = renderSection('文型', 'ぶんけい', getRowsForSection('Bunkei'));
       break;
     case 'உதாரணச் சொற்றொடர்':
-      content.innerHTML = renderSection('例文', getRowsForSection('Reibun', state.workbook.reibun));
+      content.innerHTML = renderSection('例文', 'れいぶん', getRowsForSection('Reibun', state.workbook.reibun));
       break;
     case 'பயிற்சி A':
       content.innerHTML = renderRenshuuATemplate();
@@ -110,12 +114,17 @@ function renderLessonContent() {
     case 'சொற்கள்':
       content.innerHTML = renderVocabulary();
       break;
+    case 'உரையாடல்':
+      content.innerHTML = renderKaiwa();
+      break;
     case 'இலக்கணக் குறிப்பு':
       content.innerHTML = renderGrammarNotes();
       break;
     default:
       content.innerHTML = '';
   }
+
+  renderLessonImageButton();
 
   const intro = content.querySelector('.section-intro');
   if (intro) {
@@ -131,12 +140,87 @@ function renderLessonContent() {
   }
 }
 
-function renderSection(title, rows) {
+function renderKaiwa() {
+  const rows = state.workbook.kaiwa.filter((row) => getLessonNumber(row) === state.activeLesson);
+
   if (!rows.length) {
     return `
       <div class="empty-state">
-        <h2>${title}</h2>
-        <p>No ${title.toLowerCase()} entries are available for this lesson yet.</p>
+        <h2>உரையாடல்</h2>
+        <p>No conversation entries are available for this lesson yet.</p>
+      </div>
+    `;
+  }
+
+  return `
+    <div class="section-intro">
+      <span class="kicker">会話</span>
+      <h2>かいわ</h2>
+    </div>
+    <div class="kaiwa-toolbar">
+      <button id="lesson-image-button" class="lesson-image-tile" type="button">
+        <span class="lesson-image-icon" aria-hidden="true">◫</span>
+        <span>படம் பார்</span>
+      </button>
+    </div>
+    <div class="table-wrap">
+      <table class="lesson-table kaiwa-table">
+        <thead>
+          <tr>
+            <th>கதாபாத்திரம்</th>
+            <th>வசனம்</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map((row) => `
+            <tr>
+              <td>${escapeHtml(row.Character || '—')}</td>
+              <td class="kaiwa-dialogue">${escapeHtml(row.Dialogue || '—')}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function renderLessonImageButton() {
+  const button = document.getElementById('lesson-image-button');
+  if (!button) return;
+
+  button.onclick = showLessonImage;
+}
+
+function showLessonImage() {
+  closeLessonImage();
+
+  const overlay = document.createElement('div');
+  overlay.className = 'lesson-image-overlay';
+  overlay.setAttribute('role', 'dialog');
+  overlay.setAttribute('aria-modal', 'true');
+  overlay.setAttribute('aria-label', `Lesson ${state.activeLesson} image`);
+  overlay.innerHTML = `
+    <img src="./Dataset/images/${String(state.activeLesson).padStart(2, '0')}.png" alt="Lesson ${state.activeLesson}" />
+  `;
+  overlay.addEventListener('click', closeLessonImage);
+  overlay.querySelector('img').addEventListener('click', (event) => event.stopPropagation());
+  document.body.appendChild(overlay);
+}
+
+function closeLessonImage() {
+  document.querySelector('.lesson-image-overlay')?.remove();
+}
+
+function handleImageOverlayKeydown(event) {
+  if (event.key === 'Escape') closeLessonImage();
+}
+
+function renderSection(kickerTitle, headingTitle, rows) {
+  if (!rows.length) {
+    return `
+      <div class="empty-state">
+        <h2>${headingTitle}</h2>
+        <p>No ${headingTitle.toLowerCase()} entries are available for this lesson yet.</p>
       </div>
     `;
   }
@@ -145,8 +229,8 @@ function renderSection(title, rows) {
 
   return `
     <div class="section-intro">
-      <span class="kicker">${title}</span>
-      <h2>${title} – Lesson ${state.activeLesson}</h2>
+      <span class="kicker">${kickerTitle}</span>
+      <h2>${headingTitle}</h2>
       <div class="tamil-display-control" role="group" aria-label="Tamil column display">
         <span>தமிழ் பகுதி:</span>
         <label><input type="radio" name="tamil-display" value="Tamil_Natural" checked /> இயல்பான தமிழ்</label>
@@ -191,39 +275,33 @@ function renderSection(title, rows) {
 }
 
 function renderRenshuuATemplate() {
-  const rows = state.workbook.renshuuA.filter((item) => Number(item.lesson) === state.activeLesson);
+  const rows = state.workbook.renshuuA.filter((item) => getLessonNumber(item) === state.activeLesson);
 
   return `
     <div class="section-intro">
       <span class="kicker">練習　A</span>
-      <h2>Practice A – Template</h2>
-      <p>This section is ready for future exercises. Add your own lesson data later and the table will automatically display it in the same format.</p>
+      <h2>れんしゅ A</h2>
+      <p>இந்தப் பகுதியில் உள்ள வாக்கியங்களை படித்து அர்த்தத்தை மனதில் இருத்துங்கள்.</p>
     </div>
     <div class="table-wrap">
       <table class="lesson-table template-table">
         <thead>
           <tr>
-            <th>SNO</th>
-            <th>Type</th>
-            <th>Japanese Prompt</th>
-            <th>Tamil Prompt</th>
-            <th>Answer Hint</th>
-            <th>Notes</th>
+            <th>எண்</th>
+            <th>யப்பானியத்தில்</th>
+            <th>தமிழில்</th>
           </tr>
         </thead>
         <tbody>
           ${rows.length ? rows.map((row) => `
             <tr>
-              <td>${escapeHtml(row.sno)}</td>
-              <td>${escapeHtml(row.type)}</td>
-              <td>${escapeHtml(row.japanese_prompt)}</td>
-              <td>${escapeHtml(row.tamil_prompt)}</td>
-              <td>${escapeHtml(row.answer_hint)}</td>
-              <td>${escapeHtml(row.notes)}</td>
+              <td>${escapeHtml(row.SNO || row.sno)}</td>
+              <td>${escapeHtml(row.Japanese || '—')}</td>
+              <td>${escapeHtml(row.Tamil || '—')}</td>
             </tr>
           `).join('') : `
             <tr>
-              <td colspan="6">
+              <td colspan="3">
                 <div class="empty-state">No Renshuu A data exists yet for Lesson ${state.activeLesson}. Add your dataset later.</div>
               </td>
             </tr>
@@ -249,8 +327,8 @@ function renderVocabulary() {
   return `
     <div class="section-intro">
       <span class="kicker">言葉</span>
-      <h2>Vocabulary – Lesson ${state.activeLesson}</h2>
-      <p>Loaded directly from the Minna no Nihongo vocabulary CSV without recreating or modifying the original dataset.</p>
+      <h2>ことば</h2>
+      <p>இந்தப் பகுதியில் உள்ள சொற்களை படித்து அர்த்தத்தை மனதில் இருத்துங்கள்.</p>
     </div>
     <div class="table-wrap">
       <table class="lesson-table">
@@ -282,28 +360,30 @@ function renderVocabulary() {
 }
 
 function renderGrammarNotes() {
-  const rows = state.workbook.grammarNotes;
-  const columns = rows.length ? Object.keys(rows[0]) : [];
+  const rows = state.workbook.grammarNotes.filter((row) => getLessonNumber(row) === state.activeLesson);
 
   return `
     <div class="section-intro">
       <span class="kicker">文法ノート</span>
-      <h2>Grammar Notes</h2>
+      <h2>ぶんほうノート</h2>
     </div>
     <div class="table-wrap">
       <table class="lesson-table">
         <thead>
           <tr>
-            ${columns.map((column) => `<th>${escapeHtml(column)}</th>`).join('')}
+            <th>எண்</th>
+            <th>யப்பானியத்தில்</th>
+            <th>தமிழில்</th>
+            <th>விளக்கம்</th>
           </tr>
         </thead>
         <tbody>
           ${rows.map((row) => `
             <tr>
-              ${columns.map((column) => {
-                const cellClass = column === 'NOTES_DESCRIPTION' ? ' class="grammar-description"' : '';
-                return `<td${cellClass}>${escapeHtml(row[column])}</td>`;
-              }).join('')}
+              <td>${escapeHtml(row.SNO || row.sno || rows.indexOf(row) + 1)}</td>
+              <td>${escapeHtml(row.JAPANESE || row.NOTES_TOPIC_J || '—')}</td>
+              <td>${escapeHtml(row.TAMIL || row.NOTES_TOPIC_N || '—')}</td>
+              <td class="grammar-description">${escapeHtml(row.NOTES_DESCRIPTION || row.DESCRIPTION || '—')}</td>
             </tr>
           `).join('')}
         </tbody>
@@ -321,7 +401,7 @@ function getRowsForSection(sectionName, sourceRows = state.workbook.learn) {
 }
 
 function getLessonNumber(row) {
-  const value = row.Lesson ?? row.lesson ?? row.L ?? row.l ?? '';
+  const value = row.LESSON ?? row.Lesson ?? row.lesson ?? row.L ?? row.l ?? '';
   const normalized = String(value).trim();
   return normalized === '' ? NaN : Number(normalized);
 }

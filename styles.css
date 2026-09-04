@@ -132,6 +132,39 @@ button {
   font-size: clamp(2rem, 3vw, 2.8rem);
 }
 
+.lesson-image-tile {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--panel);
+  color: var(--primary);
+  padding: 12px 15px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.lesson-image-tile:hover,
+.lesson-image-tile:focus-visible {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  outline: none;
+}
+
+.lesson-image-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.kaiwa-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
 .tab-bar {
   display: flex;
   flex-wrap: wrap;
@@ -230,6 +263,11 @@ button {
   width: 100%;
   border-collapse: collapse;
   min-width: 700px;
+}
+
+.lesson-table th,
+.lesson-table td {
+  border: 1px solid var(--border);
 }
 
 .lesson-grid-wrap {
@@ -348,6 +386,43 @@ button {
 .grammar-description {
   white-space: pre-wrap;
   line-height: 1.6;
+}
+
+.kaiwa-table td {
+  font-size: 1.08rem;
+  line-height: 1.65;
+  vertical-align: top;
+}
+
+.kaiwa-table td:first-child {
+  width: 20%;
+  font-weight: 700;
+}
+
+.kaiwa-dialogue {
+  white-space: pre-wrap;
+}
+
+.lesson-image-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  background: rgba(15, 23, 42, 0.72);
+  cursor: pointer;
+}
+
+.lesson-image-overlay img {
+  display: block;
+  max-width: min(92vw, 1000px);
+  max-height: 88vh;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+  cursor: default;
 }
 
 .mistake-list {
