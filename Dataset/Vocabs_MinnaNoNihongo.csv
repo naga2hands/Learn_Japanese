@@ -1,0 +1,1096 @@
+﻿SN,L,KANJI,HIRAGANA_KATAKANA,TAMIL,ENGLISH,ROMAJI
+1,1,貴方,あなた, நீங்கள்,you,anata
+2,1,私,わたし, நான்,I,watashi
+3,1,私達,わたしたち, நாம்/நாங்கள்,We,watashitachi
+4,1,あの人,あのひと, அந்த ஆள்,"that person, he, she",anohito
+5,1,あの方,あのかた, அந்த நபர் (மரியாதையாக),"that person, he, she (more polite)",anokata
+6,1,皆さん,みなさん, எல்லோரும்/அனைவரும்,"everyone, all of you",minasan
+7,1,～さん,～さん, திரு./திருமதி (மரியாதை Suffix),"Mr., Ms.",～san
+8,1,～ちゃん,～ちゃん, குழந்தைகளுக்கான அழைப்புபெயர் (அன்பாக eg: குட்டி ),(suffix for children),～chan
+9,1,～君,～くん, ஆண் குழந்தை அல்லது இளவயது ஆண்களுக்கான suffix,(suffix for boys),～kun
+10,1,～人,～じん, (ஒரு நாட்டைச் சேர்ந்த நபருக்கு suffix),(a national/citizen of~),～jin
+11,1,先生,せんせい, குரு/ஆசிரியர்/வாத்தியார் (மரியாதை),"teacher, instructor",sensei
+12,1,教師,きょうし, ஆசிரியர் (தொழில் குறிப்பிடும்போது),"teacher, instructor",kyoushi
+13,1,学生,がくせい, மாணவர்,student,gakusei
+14,1,会社員,かいしゃいん, நிறுவன ஊழியர்,company employee,kaishain
+15,1,社員,しゃいん, ஊழியர்,employee of ~ company,shain
+16,1,銀行員,ぎんこういん, வங்கிப் பணியாளர்,bank employee,ginkouin
+17,1,医者,いしゃ, மருத்துவர்,medical doctor,isha
+18,1,研究者,けんきゅうしゃ, ஆராய்ச்சியாளர் / அறிஞர்,"researcher, scholar",kenkyuusha
+19,1,エンジニア,エンジニア, பொறியாளர்,engineer,enjinia
+20,1,大学,だいがく, பல்கலைக்கழகம்,university,daigaku
+21,1,病院,びょういん, மருத்துவமனை,hospital,byouin
+22,1,電気,でんき, மின்சாரம்,electricity,denki
+23,1,だれ,だれ, யார்?,who,dare
+24,1,何方,どなた, யார்? (மரியாதை),who (polite),donata
+25,1,～歳,～さい, வயது,~years old,～sai
+26,1,何歳,なんさい, என்ன வயது?,how old,nansai
+27,1,おいくつ,おいくつ, வயது எவ்வளவு? (மரியாதை),how old (polite),oikutsu
+28,1,はい,はい, ஆம்,yes,hai
+29,1,いいえ,いいえ, இல்லை,no,iie
+30,1,失礼ですが,しつれいですが," மன்னிக்கவும், ஆனால் (மரியாதையாக)","Excuse me, but",shitsureidesuga
+31,1,お名前は,おなまえは, உங்கள் பெயர் என்ன?,May I have your name?,onamaeha
+32,1,初めまして,はじめまして, சந்திப்பதில் மகிழ்ச்சி,(introducing oneself for the first time),hajimemashite
+33,1,どうぞ宜しく,どうぞよろしく, உங்களிடம் நல்ல தொடர்பு கிடைக்கட்டும்,Pleased to meet you,douzoyoroshiku
+34,1,どうぞ宜しくお願いします,どうぞよろしくおねがいします, உங்களுடன் நல்ல தொடர்பு எதிர்பார்க்கிறேன் (மரியாதையாக),Pleased to meet you (polite),douzoyoroshikuonegaishimasu
+35,1,こちらは～さんです,こちらは～さんです, இது திரு./திருமதி ~ ஆவார்,This is Mr./Ms.~,kochirawa～sandesu
+36,1,～から来ました,～からきました, ~இலிருந்து வந்தேன்,I came from ~,～karakimashita
+37,1,アメリカ,アメリカ, அமெரிக்கா,America/USA,amerika
+38,1,イギリス,イギリス, இங்கிலாந்து,UK/England,igirisu
+39,1,インド,インド, இந்தியா,India,indo
+40,1,インドネシア,インドネシア, இந்தோனேசியா,Indonesia,indoneshia
+41,1,韓国,かんこく, தென் கொரியா,South Korea,kankoku
+42,1,タイ,タイ, தாய்லாந்து,Thailand,tai
+43,1,中国,ちゅうごく, சீனா,China,chuugoku
+44,1,ドイツ,ドイツ, ஜெர்மனி,Germany,doitsu
+45,1,日本,にほん, ஜப்பான்,Japan,nihon
+46,1,フランス,フランス, பிரான்ஸ்,France,furansu
+47,1,ブラジル,ブラジル, பிரேசில்,Brazil,burajiru
+48,2,これ,これ, இது,this (thing here),kore
+49,2,それ,それ, உது,that (thing near you),sore
+50,2,あれ,あれ, அது,that (thing over there),are
+51,2,この～,この～, இந்த～,"this ~, this ~ here",kono～
+52,2,その～,その～, உந்த～,"that ~, that ~ there",sono～
+53,2,あの～,あの～, அந்த～,"that ~, that ~ over there",ano～
+54,2,本,ほん, புத்தகம்,book,hon
+55,2,辞書,じしょ, அகராதி,dictionary,jisho
+56,2,雑誌,ざっし, மாத இதழ்,magazine,zasshi
+57,2,新聞,しんぶん, செய்தித்தாள்,newspaper,shinbun
+58,2,ノート,ノート, நோட்டு புத்தகம்,notebook,nōto
+59,2,手帳,てちょう, கைப்புத்தகம் / டயரி,pocket notebook,techou
+60,2,名刺,めいし, வியாபார அட்டை (விசிடிங் கார்டு),business card,meishi
+61,2,カード,カード, அட்டை (கார்டு),card,kādo
+62,2,テレホンカード,テレホンカード, டெலிபோன் அட்டை,telephone card,terehonkādo
+63,2,鉛筆,えんぴつ, பென்சில்,pencil,enbitsu
+64,2,ボールペン,ボールペン, பால் பாய்ன்ட் பேனா,ballpoint pen,bōrupen
+65,2,シャップペンシル,シャップペンシル, மெக்கானிக்கல் பென்சில்,mechanical pencil,shappupenshiru
+66,2,かぎ,かぎ, சாவி,key,kagi
+67,2,時計,とけい, கடிகாரம்,"watch, clock",tokei
+68,2,傘,かさ, குடை,umbrella,kasa
+69,2,かばん,かばん, பை / கைப்பை,"bag, briefcase",kaban
+70,2,テープ,テープ, கேசட் / டேப்,(cassette) tape,tēpu
+71,2,テープレコーダー,テープレコーダー, டேப் ரெக்கார்டர்,tape recorder,tēpurekōdā
+72,2,テレビ,テレビ, தொலைக்காட்சி,television,terebi
+73,2,ラジオ,ラジオ, ரேடியோ,radio,rajio
+74,2,カメラ,カメラ, கேமரா,camera,kamera
+75,2,コンピューター,コンピューター, கணினி,computer,konpyūtā
+76,2,自動車,じどうしゃ, வாகனம் / கார்,"automobile, car",jidousha
+77,2,机,つくえ, மேசை,desk,tsukue
+78,2,いす,いす, நாற்காலி,chair,isu
+79,2,チョコレート,チョコレート, சாக்லேட்,chocolate,chokorēto
+80,2,コーヒー,コーヒー, காப்பி,coffee,kōhī
+81,2,英語,えいご, ஆங்கிலம்,the English language,eigo
+82,2,日本語,にほんご, ஜப்பானியம்,the Japanese language,nihongo
+83,2,～語,～ご, ～மொழி (எ.கா: タミルご = தமிழ் மொழி),~ language,～go
+84,2,何,なん, என்ன?,what,nan
+85,2,そう,そう, அப்படிதான் / ஆம்,so,sou
+86,2,違います,ちがいます, அப்படிஇல்லை / தவறு,"No it isn't, You are wrong",chigaimasu
+87,2,そうですか,そうですか,அப்படிதான்? / ஓஹோ,"I see, Is that so?",soudesuka
+88,2,あのう,あのう, அது வந்து.. ,well (used to show hesitation),anou
+89,2,ほんの気持ちです,ほんのきもちです, ஒரு சின்ன பரிசு (நன்றியுடன்),"It's nothing, It's a token of my gratitude",honnokimochidesu
+90,2,どうぞ,どうぞ, தயவு செய்து / கொடுக்கவும்,"Please, Here you are (when offering someone something)",douzo
+91,2,どうも,どうも, நன்றி / மிகவும்,"Well, thanks",doumo
+92,2,ありがとう,ありがとう, நன்றி,Thank you,arigatou
+93,2,どうもありがとうございます,どうもありがとうございます, மிகவும் நன்றி,Thank you very much,doumoarigatougozaimasu
+94,2,これからお世話になります,これからおせわになります, இனிமேல் உங்கள் உதவி தேவை,I hope for your kind assistance hereafter,korekaraosewaninarimasu
+95,2,こちらこそよろしく,こちらこそよろしく, நானும் உங்களை சந்தித்ததில் மகிழ்ச்சி,I am pleased to meet you,kochirakosoyoroshiku
+96,3,ここ,ここ, இங்கே,"here, this place",koko
+97,3,そこ,そこ, உங்கே,"there, that place near you",soko
+98,3,あそこ,あそこ, அங்கே,that place over there,asoko
+99,3,どこ,どこ, எங்கே?,"where, what place?",doko
+100,3,こちら,こちら, இந்த பக்கம் / இப்பக்கம்,"this way, this place (polite)",kochira
+101,3,そちら,そちら, உந்த பக்கம் / உப்பக்கம்,"that way, that place near you (polite)",sochira
+102,3,あちら,あちら, அந்த பக்கம் / அப்பக்கம்,"that way, that place over there (polite)",achira
+103,3,どちら,どちら, எந்த பக்கம்?,"which way, where (polite)",dochira
+104,3,教室,きょうしつ, வகுப்பறை,classroom,kyoushitsu
+105,3,食堂,しょくどう, உணவகம்,"dining hall, canteen",shokudou
+106,3,事務所,じむしょ, அலுவலகம்,office,jimusho
+107,3,会議室,かいぎしつ, கூட்ட அறை,"conference room, assembly room",kaigishitsu
+108,3,受付,うけつけ, வரவேற்பு மேசை,reception desk,uketsuke
+109,3,ロビー,ロビー, லாபி (வந்தேறும் பகுதி),lobby,robī
+110,3,部屋,へや, அறை,room,heya
+111,3,トイレ,トイレ, கழிவறை,"toilet, restroom",toire
+112,3,お手洗い,おてあらい, கைகளை கழுவும் இடம் (கழிவறை என பொருள் தரும்),"toilet, restroom",otearai
+113,3,階段,かいだん, படிக்கட்டு,staircase,kaidan
+114,3,エレベーター,エレベーター, லிப்ட் (மின்தூக்கி),"elevator, lift",erebētā
+115,3,エスカレーター,エスカレーター, மின்படிக்கட்டு,escalator,esukarētā
+116,3,国,くに, நாடு,country,kuni
+117,3,会社,かいしゃ, நிறுவனம்,company,kaisha
+118,3,うち,うち, வீடு / என் இடம்,"house, home",uchi
+119,3,電話,でんわ, தொலைபேசி,"telephone, telephone call",denwa
+120,3,靴,くつ, செருப்பு / காலணி,shoes,kutsu
+121,3,ネクタイ,ネクタイ, (கழுத்துக்கட்டு),necktie,nekutai
+122,3,ワイン,ワイン, (மது),wine,wain
+123,3,たばこ,たばこ, புகையிலை / சிகரெட்,"tobacco, cigarette",tabako
+124,3,売り場,うりば, விற்பனை இடம்,"department, counter (in a department store)",uriba
+125,3,地下,ちか, கீழ் தளம் / நிலத்தடியில்,basement,chika
+126,3,～階,～かい, ～வது மாடி,~th floor,～kai
+127,3,何階,なんがい, எந்த மாடி?,what floor,nangai
+128,3,～円,～えん, ～ யென் (ஜப்பான் நாணயம்),yen,～en
+129,3,いくら,いくら, எவ்வளவு?,how much,ikura
+130,3,百,ひゃく, நூறு,hundred,hyaku
+131,3,千,せん, ஆயிரம்,thousand,sen
+132,3,万,まん, பத்து ஆயிரம்,ten thousand,man
+133,3,すみません,すみません," மன்னிக்கவும் / மன்னிக்கவும், தயவுசெய்து",Excuse me,sumimasen
+134,3,～でございます,～でございます, ～ஆக இருக்கிறது (மென்படுத்தப்பட்ட மரியாதையான உரை),"(polite form of ""desu"")",～degozaimasu
+135,3,～を見せてください,～をみせてください, ～ஐ காண்பிக்கவும் / காட்டவும்,Please show me ~,～omisetekudasai
+136,3,じゃ,じゃ, சரி,"well, then, in that case",ja
+137,3,～をください,～をください, ～ஐ கொடுங்கள்,"Give me ~, please.",～okudasai
+138,4,起きます,おきます, எழுந்திருக்கிறேன் / விழிக்கிறேன்,"get up, wake up",okimasu
+139,4,寝ます,ねます, தூங்குகிறேன்,"sleep, go to bed",nemasu
+140,4,働きます,はたらきます, வேலை செய்கிறேன்,work,hatarakimasu
+141,4,休みます,やすみます, ஓய்வு எடுத்துக்கொள்கிறேன்,"take a rest, take a holiday",yasumimasu
+142,4,勉強します,べんきょうします, படிக்கிறேன்,study,benkyoushimasu
+143,4,終わります,おわります, முடிகிறது / முடிக்கிறேன்,finish,owarimasu
+144,4,デパート,デパート, டிபாரட்மென்ட்  ஸ்டோர் (பெரிய கடை),department store,depāto
+145,4,銀行,ぎんこう, வங்கி,bank,ginkou
+146,4,郵便局,ゆうびんきょく, அஞ்சலகம்,post office,yuubinkyoku
+147,4,図書館,としょかん, நூலகம்,library,toshokan
+148,4,美術館,びじゅつかん, கலை அருங்காட்சியகம்,art museum,bijutsukan
+149,4,今,いま, இப்போது,now,ima
+150,4,～時,～じ, ～ மணி,~o'clock,～ji
+151,4,～分,～ふん, ～ நிமிடம்,~ minute,～fun
+152,4,半,はん, அரை (எ.கா: 6 மணி அரை),half,han
+153,4,何時,なんじ, எத்தனை மணி?,what time,nanji
+154,4,何分,なんぷん, எத்தனை நிமிடம்?,what minute,nanpun
+155,4,午前,ごぜん, காலை (AM),"a.m., morning",gozen
+156,4,午後,ごご, பிற்பகல் (PM),"p.m., afternoon",gogo
+157,4,朝,あさ, காலை,morning,asa
+158,4,昼,ひる, மதியம்,"daytime, noon",hiru
+159,4,晩,ばん, மாலை,"night, evening",ban
+160,4,夜,よる, இரவு,"night, evening",yoru
+161,4,おととい,おととい, நேற்று முன்தினம்,the day before yesterday,ototoi
+162,4,きのう,きのう, நேற்று,yesterday,kinou
+163,4,きょう,きょう, இன்று,today,kyou
+164,4,あした,あした, நாளை,tomorrow,ashita
+165,4,あさって,あさって, நாளை மறுநாள்,the day after tomorrow,asatte
+166,4,けさ,けさ, இன்று காலை,this morning,kesa
+167,4,今晩,こんばん, இன்றிரவு,"this evening, tonight",konban
+168,4,休み,やすみ, ஓய்வு / விடுமுறை,"rest, a holiday, a day off",yasumi
+169,4,昼休み,ひるやすみ, மதிய ஓய்வு,lunchtime,hiruyasumi
+170,4,毎朝,まいあさ, எல்லா காலையும்,every morning,maiasa
+171,4,毎晩,まいばん, எல்லா இரவும்,every evening,maiban
+172,4,毎日,まいにち, தினமும் (எல்லா நாளும்),every day,mainichi
+173,4,月曜日,げつようび, திங்கள் (திங்கட்கிழமை),Monday,getsuyoubi
+174,4,火曜日,かようび, செவ்வாய் (செவ்வாய்க்கிழமை),Tuesday,kayoubi
+175,4,水曜日,すいようび, புதன் (புதன்கிழமை),Wednesday,suiyoubi
+176,4,木曜日,もくようび, வியாழன் (வியாழக்கிழமை),Thursday,mokuyoubi
+177,4,金曜日,きんようび, வெள்ளி (வெள்ளிக்கிழமை),Friday,kinyoubi
+178,4,土曜日,どようび, சனி (சனிக்கிழமை),Saturday,doyoubi
+179,4,日曜日,にちようび, ஞாயிறு (ஞாயிற்றுக்கிழமை),Sunday,nichiyoubi
+180,4,何曜日,なんようび, எந்த நாள் ? (எ.கா. இன்று என்ன நாள் ),what day of the week,nanyoubi
+181,4,番号,ばんごう, எண் (நம்பர்),number,bangou
+182,4,何番,なんばん, எந்த எண்? (எ.கா. தொலைபேசி எண் என்ன?),what number,nanban
+183,4,～から,～から, ～இருந்து,from ~,～kara
+184,4,～まで,～まで, ～வரை,"up to ~, until ~",～made
+185,4,～と～,～と～, ～மற்றும்～,and (used to connect nouns),～to～
+186,4,そちら,そちら, உங்குப்பக்கம் (மரியாதைத் தொகை),your place,sochira
+187,4,大変ですね,たいへんですね," கடினம், அல்லவா? / கஷ்டமாக இருக்கிறதே!","That's tough, isn't it? (used when expressing sympathy)",taihendesune
+188,4,えーと,えーと, ஹும்... (சிந்தனைக்கான இடைவேளை),"well, let me see",ēto
+189,4,お願いします,おねがいします, தயவுசெய்து (கேட்டுக்கொள்வது),Please. (lit. ask for a favor),onegaishimasu
+190,4,かしこまりました,かしこまりました, அறிந்துகொண்டேன் / நிச்சயமாக (மரியாதைமிக்க பதில்),"Certainly (sir, madam)",kashikomarimashita
+191,4,お問い合わせの番号,おといあわせのばんごう,   (சேவை தொடர்பான எண்),the number being inquired about,otoiawasenobangou
+192,4,どうもありがとうございました,どうもありがとうございました, மிகவும் நன்றி,Thank you very much,doumoarigatougozaimashita
+193,4,ニューヨーク,ニューヨーク, நியூயோர்க்,New York,nyūyōku
+194,4,北京,ペキン, பெய்ஜிங்,Beijing,pekin
+195,4,ロンドン,ロンドン, லண்டன்,London,rondon
+196,4,バンコク,バンコク, பாங்காக்,Bangkok,bankoku
+197,4,ロサンゼルス,ロサンゼルス, லொஸ்ஏஞ்சல்ஸ்,Los Angeles,rosanzerusu
+198,5,行ます,いきます, செல்கிறேன்,go,ikimasu
+199,5,来ます,きます, வருகிறேன்,come,kimasu
+200,5,帰ります,かえります, திரும்பிச் செல்கிறேன் / வீடு போகிறேன்,"go home, return",kaerimasu
+201,5,学校,がっこう, பள்ளி,school,gakkou
+202,5,スーパー,スーパー, சுப்பர் மார்க்கெட்,supermarket,sūpā
+203,5,駅,えき, ரயில் நிலையம்,station,eki
+204,5,飛行機,ひこうき, விமானம்,airplane,hikouki
+205,5,船,ふね, கப்பல்,ship,fune
+206,5,電車,でんしゃ, மின்தொடர்வண்டி,electric train,densha
+207,5,地下鉄,ちかてつ, மெட்ரோ ரயில்,"subway, underground",chikatetsu
+208,5,新幹線,しんかんせん, ஜப்பானிய வேக ரயில் (Shinkansen - Bullet Train),"Shinkansen, Bullet Train",shinkansen
+209,5,バス,バス, பேருந்து,bus,basu
+210,5,タクシー,タクシー, டாக்ஸி,taxi,takushī
+211,5,自転車,じてんしゃ, மிதிவண்டி,bicycle,jitensha
+212,5,歩いて,あるいて, நடந்து (நடந்து செல்வது),on foot,aruite
+213,5,人,ひと, ஒருவர் / மனிதன்,"person, people",hito
+214,5,友達,ともだち, நண்பன் / நண்பர்கள்,friend,tomodachi
+215,5,彼,かれ, அவன் / காதலன்,"he, boyfriend, lover",kare
+216,5,彼女,かのじょ, அவள் / காதலி,"she, girlfriend, lover",kanojo
+217,5,家族,かぞく, குடும்பம்,family,kazoku
+218,5,一人で,ひとりで, தனியாக,"alone, by oneself",hitoride
+219,5,先週,せんしゅう, கடந்த வாரம்,last week,senshuu
+220,5,今週,こんしゅう, இந்த வாரம்,this week,konshuu
+221,5,来週,らいしゅう, அடுத்த வாரம்,next week,raishuu
+222,5,先月,せんげつ, கடந்த மாதம்,last month,sengetsu
+223,5,今月,こんげつ, இந்த மாதம்,this month,kongetsu
+224,5,来月,らいげつ, அடுத்த மாதம்,next month,raigetsu
+225,5,去年,きょねん, கடந்த ஆண்டு,last year,kyonen
+226,5,ことし,ことし, இந்த ஆண்டு,this year,kotoshi
+227,5,来年,らいねん, அடுத்த ஆண்டு,next year,rainen
+228,5,～月,～がつ, ～ மாதம்,~th month of the year,～gatsu
+229,5,何月,なんがつ, எந்த மாதம்?,what month,nangatsu
+230,5,一日,ついたち, 1-ம் தேதி,the first (day of the month),tsuitachi
+231,5,二日,ふつか, 2-ம் தேதி,"the second (day of the month), two days",futsuka
+232,5,三日,みっか, 3-ம் தேதி,"the third (day of the month), three days",mikka
+233,5,四日,よっか, 4-ம் தேதி,"the fourth (day of the month), four days",yokka
+234,5,五日,いつか, 5-ம் தேதி,"the fifth (day of the month), five days",itsuka
+235,5,六日,むいか, 6-ம் தேதி,"the sixth (day of the month), six days",muika
+236,5,七日,なのか, 7-ம் தேதி,"the sixth (day of the month), seven days",nanoka
+237,5,八日,ようか, 8-ம் தேதி,"the eigth (day of the month), eight days",youka
+238,5,九日,ここのか, 9-ம் தேதி,"the ninth (day of the month), nine days",kokonoka
+239,5,十日,とおか, 10-ம் தேதி,"the tenth (day of the month), ten days",tooka
+240,5,十四日,じゅうよっか, 14-ம் தேதி,"the fourteenth (day of the month), fourteen days",juuyokka
+241,5,二十日,はつか, 20-ம் தேதி,"the twentieth (day of the month), twenty days",hatsuka
+242,5,二十四日,にじゅうよっか, 24-ம் தேதி,"the twenty fourth (day of the month) , twenty four days",nijuuyokka
+243,5,～日,～にち, ～ஆம் தேதி,"~th day of the month, ~ days",～nichi
+244,5,何日,なんにち, எந்த தேதி?,"which day of the month, how many days",nannichi
+245,5,いつ,いつ, எப்போது?,when,itsu
+246,5,誕生日,たんじょうび, பிறந்தநாள்,birthday,tanjoubi
+247,5,普通 (列車),ふつう (れっしゃ), சாதாரண ரயில் (நிறுத்தங்கள் அதிகம்),local train,futsuu (ressha)
+248,5,急行 (列車),きゅうこう (れっしゃ), விரைவு ரயில் (சில முக்கிய நிறுத்தங்கள் மட்டும்),express train,kyuukou (ressha)
+249,5,特急,とっきゅう, அதிவிரைவு ரயில்,limited express train,tokkyuu
+250,5,次の,つぎの, அடுத்தது / அடுத்த,next,tsugino
+251,5,どういたしまして,どういたしまして, பரவாயில்லை / எதுவும் இல்லை (நன்றி சொல்லும்போது பதில்),"You're welcome, Don't mention it",douitashimashite
+252,5,～番線,～ばんせん, ～வது நடைமேடை (ரயில் நிலையத்தில்),"platform ~, ~th platform",～bansen
+253,6,食べます,たべます, சாப்பிடுகிறேன்,eat,tabemasu
+254,6,飲みます,のみます, குடிக்கிறேன்,drink,nomimasu
+255,6,吸います,すいます, (புகை) உள்இழுக்கிறேன்,smoke,suimasu
+256,6,たばこを吸います,たばこをすいます, புகையிலை பிடிக்கிறேன்,smoke a cigarette,tabako o suimasu
+257,6,見ます,みます, பார்க்கிறேன்,"see, look at, watch",mimasu
+258,6,聞きます,ききます, கேட்கிறேன்,"hear, listen",kikimasu
+259,6,読みます,よみます, படிக்கிறேன்,read,yomimasu
+260,6,書きます,かきます, எழுதுகிறேன்,"write, draw, paint",kakimasu
+261,6,買います,かいます, வாங்குகிறேன்,buy,kaimasu
+262,6,撮ります,とります, எடுக்கிறேன்,take (a photograph),torimasu
+263,6,写真を撮ります,しゃしんをとります, புகைப்படம் எடுக்கிறேன்,take a picture,shashin o torimasu
+264,6,します,します, செய்கிறேன்,do,shimasu
+265,6,会います,あいます, சந்திக்கிறேன்,meet,aimasu
+266,6,友達を会います,ともだちをあいます, நண்பரை சந்திக்கிறேன்,meet a friend,tomodachi o aimasu
+267,6,ごはん,ごはん, உணவு / அரிசி உணவு,"a meal, cooked rice",gohan
+268,6,朝ごはん,あさごはん, காலை உணவு,breakfast,asagohan
+269,6,昼ごはん,ひるごはん, மதிய உணவு,lunch,hirugohan
+270,6,晩ごはん,ばんごはん, இரவு உணவு,supper,bangohan
+271,6,パン,パン, பான் / ரொட்டி,bread,pan
+272,6,卵,たまご, முட்டை,egg,tamago
+273,6,肉,にく, இறைச்சி,meat,niku
+274,6,魚,さかな, மீன்,fish,sakana
+275,6,野菜,やさい, காய்கறிகள்,vegetable,yasai
+276,6,果物,くだもの, பழங்கள்,fruit,kudamono
+277,6,水,みず, தண்ணீர்,water,mizu
+278,6,お茶,おちゃ, பச்சை தேநீர் / ஜப்பானிய தேநீர்,"tea, green tea",ocha
+279,6,紅茶,こうちゃ, கருப்பு தேநீர் / சாதாரண தேநீர்,black tea,koucha
+280,6,牛乳,ぎゅうにゅう, பால்,milk,gyuunyuu
+281,6,ミリク,ミリク, பால் (Milk - கத்தகானா வடிவம்),milk,miriku
+282,6,ジュース,ジュース, ஜூஸ்,juice,jūsu
+283,6,ビール,ビール, பீர்,beer,bīru
+284,6,酒,さけ, மது / சாக்கே (ஜப்பானிய பாரம்பரிய மதுபானம்),"alcohol, Japanese rice wine",sake
+285,6,ビデオ,ビデオ, வீடியோ,video,bideo
+286,6,映画,えいが, திரைப்படம்,movie,eiga
+287,6,手紙,てがみ, கடிதம்,letter,tegami
+288,6,レポート,レポート, அறிக்கை / ரிப்போர்ட்,report,repōto
+289,6,写真,しゃしん, புகைப்படம்,photograph,shashin
+290,6,店,みせ, கடை,"store, shop",mise
+291,6,レストラン,レストラン, உணவகம்,restaurant,resutoran
+292,6,庭,にわ, தோட்டம்,garden,niwa
+293,6,宿題,しゅくだい, வீட்டுப்பாடம்,homework,shukudai
+294,6,宿題をします,しゅくだいをします, வீட்டுப்பாடம் செய்கிறேன்,do homework,shukudai o shimasu
+295,6,テニス,テニス, டென்னிஸ்,tennis,tenisu
+296,6,サッカー,サッカー, கால்பந்து,"soccer, football",sakkā
+297,6,サッカーをします,サッカーをします, கால்பந்து விளையாடுகிறேன்,play soccer,sakkā o shimasu
+298,6,花見,はなみ, (சகுரா) பூக்காட்சி (ஜப்பானிய பாரம்பரிய நிகழ்ச்சி),cherry-blossom viewing,hanami
+299,6,花見をします,はなみをします, சகுரா பூக்களை ரசிக்கிறேன்,go cherry-blossom viewing,hanami o shimasu
+300,6,何,なに, என்ன?,what,nani
+301,6,いっしょに,いっしょに, ஒன்றாக / சேர்ந்து,together,isshoni
+302,6,ちょっと,ちょっと, சிறிது / கொஞ்சம்,"a little while, a little bit",chotto
+303,6,いつも,いつも, எப்போதும்,"always, usually",itsumo
+304,6,時々,ときどき, சில சமயம்,sometimes,tokidoki
+305,6,それから,それから, அதன் பிறகு,"after that, and then",sorekara
+306,6,ええ,ええ, ஆம் (ஒப்புதல்),"yes, huh?",ee
+307,6,いいですね,いいですね, நல்லதாக இருக்கிறதே!,That's good.,iidesune
+308,6,わかりました,わかりました, புரிந்துகொண்டேன்,"I see, understood",wakarimashita
+309,6,何ですか,なんですか, என்ன?,"Yes?, What?",nandesuka
+310,6,じゃ、またあした,じゃ、またあした," சரி, மறுநாள் சந்திப்போம்!",See you tomorrow,"ja, mataashita"
+311,7,切ります,きります, வெட்டுகிறேன்,"cut, slice",kirimasu
+312,7,送ります,おくります, அனுப்புகிறேன்,send,okurimasu
+313,7,あげます,あげます, கொடுக்கிறேன்,give,agemasu
+314,7,もらいます,もらいます, பெறுகிறேன் / வாங்குகிறேன்,receive,moraimasu
+315,7,貨します,かします, (மற்றவருக்கு) கடன் தருகிறேன்,lend,kashimasu
+316,7,借ります,かります, (மற்றவரிடமிருந்து) கடன் பெறுகிறேன்,borrow,karimasu
+317,7,教えます,おしえます, கற்றுக் கொடுக்கிறேன்,teach,oshiemasu
+318,7,習います,ならいます, கற்றுக்கொள்கிறேன்,learn,naraimasu
+319,7,でんわをかけます,でんわをかけます, தொலைபேசியில் அழைக்கிறேன்,make a telephone call,denwa o kakemasu
+320,7,手,て, கை,"hand, arm",te
+321,7,はし,はし, சாப்பாட்டு குச்சி,chopsticks,hashi
+322,7,スプーン,スプーン, ஸ்பூன் / கரண்டி,spoon,supūn
+323,7,ナイフ,ナイフ, கத்தி,knife,naifu
+324,7,フォーク,フォーク, ஃபோர்க் (முள் கரண்டி),fork,fōku
+325,7,はさみ,はさみ, கத்தரிக்கோல்,scissors,hasami
+326,7,ファクス,ファクス, ஃபாக்ஸ் (FAX),fax,fakusu
+327,7,ワープロ,ワープロ, வோர்டு புராசசர் (Word Processor),word procecessor,wāpuro
+328,7,パソコン,パソコン, கம்ப்யூட்டர்,personal computer,pasokon
+329,7,パンチ,パンチ, துளைக்கருவி (Hole Punch),punch,panchi
+330,7,ホッチキス,ホッチキス, ஸ்டேப்ளர் (Stapler),stapler,hotchikisu
+331,7,セロテープ,セロテープ, செல்லோ டேப் (Cello Tape),"Scotch tape, clear adhesive tape",serotēpu
+332,7,消しゴマ,けしゴマ, அழிப்பான் / ரப்பர்,eraser,keshigoma
+333,7,紙,かみ, காகிதம்,paper,kami
+334,7,花,はな, பூ,"flower, blossom",hana
+335,7,シャツ,シャツ, சட்டை,shirt,shatsu
+336,7,プレゼント,プレゼント, பரிசு,"present, gift",purezento
+337,7,荷物,にもつ, சரக்கு / சாமான்,"baggage, parcel",nimotsu
+338,7,お金,おかね, பணம்,money,okane
+339,7,切符,きっぷ, டிக்கெட்,ticket,kippu
+340,7,クリスマス,クリスマス, கிறிஸ்துமஸ்,Christmas,kurisumasu
+341,7,父,ちち, என் அப்பா,(my) father,chichi
+342,7,母,はは, என் அம்மா,(my) mother,haha
+343,7,お父さん,おとうさん, (மற்றவரின்) அப்பா,(someone else's) father,otousan
+344,7,お母さん,おかあさん, (மற்றவரின்) அம்மா,(someone else's) mother,okaasan
+345,7,もう,もう, ஏற்கனவே / மிச்சம்,already,mou
+346,7,まだ,まだ, இன்னும் / இப்போதும்,not yet,mada
+347,7,これから,これから, இனி / இப்பவிருந்து,"from now on, soon",korekara
+348,7,～すてきですね,～すてきですね," (இது) அழகாக / நல்லதாக இருக்கிறது, அல்லவா?",What a nice ~!,～sutekidesune
+349,7,ごめんください,ごめんください, (மற்றவரின் வீட்டிற்கு செல்லும்போது) உள்ளே வரலாமா?,"Excuse me, Anybody home?, May I come in?",gomenkudasai
+350,7,いらっしゃい,いらっしゃい, வாருங்கள் / நல்வரவு,How nice of you to come (Welcome),irasshai
+351,7,どうぞお上がりください,どうぞおあがりください, உள்ளே வாருங்கள் (வீட்டிற்குள் அழைக்கும் போது),Do come in,douzooagarikudasai
+352,7,失礼します,しつれいします," மன்னிக்கவும் (இல்லது, எழுந்து செல்லும்போது)","Thank you, May I?",shitsureishimasu
+353,7,～はいかがですか,～はいかがですか, (இது) எப்படி? / (நீங்கள்) இதைப் பருகலாமா?,Would you like to have ~?,～haikagadesuka
+354,7,いただきます,いただきます, (உணவு சாப்பிடுவதற்கு முன்) (நன்றி தெரிவிக்கும் வழக்கம்),Thank you (for the meal just served),itadakimasu
+355,7,旅行,りょこう, பயணம்,"trip, tour",ryokou
+356,7,旅行をします,りょこうをします, பயணம் செய்கிறேன்,make a trip,ryokou o shimasu
+357,7,お土産,おみやげ, நினைவுப் பரிசு,"souvenir, present",omiyage
+358,7,ヨーロッパ,ヨーロッパ, ஐரோப்பா,Europe,yōroppa
+359,7,スペイン,スパイン, ஸ்பெயின் (Spain),Spain,supain
+360,8,ハンサム,ハンサム, அழகான (ஆண்களுக்கு),handsome,hansamu
+361,8,きれい,きれい," அழகான, சுத்தமான","beautiful, clean",kirei
+362,8,静か,しずか, அமைதியான,quiet,shizuka
+363,8,にぎやか,にぎやか, பரபரப்பான,lively,nigiyaka
+364,8,有名,ゆうめい, புகழ்பெற்ற,famous,yuumei
+365,8,親切,しんせつ," அன்பான, உதவிகரமான",kind,shinsetsu
+366,8,元気,げんき," ஆரோக்கியமான, உற்சாகமான","healthy, sound, cheerful",genki
+367,8,暇,ひま," ஓய்வு, வேலை இல்லாத நிலை",free (time),hima
+368,8,便利,べんり," வசதியான, உதவியான",convenient,benri
+369,8,すてき,すてき," அருமையான, அழகான","fine, nice, wonderful",suteki
+370,8,大きい,おおきい, பெரிய,"big, large",ookii
+371,8,小さい,ちいさい, சிறிய,"small, little",chiisai
+372,8,新しい,あたらしい, புதிய,new,atarashii
+373,8,古い,ふるい, பழைய,old (not of age),furui
+374,8,いい,いい, நல்ல,good,ii
+375,8,悪い,わるい," கெட்ட, மோசமான",bad,warui
+376,8,厚い,あつい, தடித்த (புத்தகம் போன்றவை),hot,atsui
+377,8,熱い,あつい," வெப்பமான (வானிலை, பொருட்கள்)",hot,atsui
+378,8,寒い,さむい, குளிரான (வானிலை),cold (referring to temperature),samui
+379,8,冷たい,つめたい, குளிர்ச்சியான (பொருட்களுக்கு),"cold (referring to touch, as a drink)",tsumetai
+380,8,難しい,むずかしい, கடினமான,difficult,muzukashii
+381,8,易しい,やさしい," எளிய, கனிவான",easy,yasashii
+382,8,高い,たかい," உயரமான, விலையுயர்ந்த","expensive, tall, high",takai
+383,8,安い,やすい, மலிவான,inexpensive,yasui
+384,8,低い,ひくい, தாழ்ந்த/குறைந்த,low,hikui
+385,8,おもしろい,おもしろい, சுவாரஸ்யமான,interesting,omoshiroi
+386,8,おいしい,おいしい, சுவையான,"delicious, tasty",oishii
+387,8,忙しい,いそがしい, வேலைப்பளுவான,busy,isogashii
+388,8,楽しい,たのしい, மகிழ்ச்சியான,enjoyable,tanoshii
+389,8,白い,しろい, வெள்ளை,white,shiroi
+390,8,黒い,くろい, கருப்பு,black,kuroi
+391,8,赤い,あかい, சிவப்பு,red,akai
+392,8,青い,あおい," நீலம், பச்சை (ஒரு சில சூழலில்)",blue,aoi
+393,8,桜,さくら, சகுரா மலர்,cherry (blossom),sakura
+394,8,山,やま, மலை,mountain,yama
+395,8,町,まち," நகரம், பகுதி","town, city",machi
+396,8,食べ物,たべもの, உணவு,food,tabemono
+397,8,車,くるま," கார், வாகனம்","car, vehicle",kuruma
+398,8,所,ところ, இடம்,place,tokoro
+399,8,寮,りょう, விடுதி,dormitory,ryou
+400,8,勉強,べんきょう, படிப்பு,study,benkyou
+401,8,生活,せいかつ, வாழ்க்கை,life,seikatsu
+402,8,仕事,しごと, வேலை,"work, business",shigoto
+403,8,仕事をおしさす,しごとをします, வேலை செய்கிறேன்,"do one's job, work",shigotooshimasu
+404,8,どう,どう, எப்படி,how,dou
+405,8,どんな～,どんな～, எந்த மாதிரியான,what kind of ~,donna～
+406,8,どれ,どれ, எது,which one (of three or more),dore
+407,8,とても,とても, மிகவும்,very,totemo
+408,8,あまり,あまり, அதிகம் (எதிர்மறை சூழலில்),not so (used with negatives),amari
+409,8,そして,そして, மேலும்,and (used to connect sentences),soshite
+410,8,～が、～,～が、～, ஆனால்,"~, but ~",～ga、～
+411,8,お元気ですか,おげんきですか, நலமா?,How are you?,ogenkidesuka
+412,8,そうですね,そうですね," ஆமாம், அப்படித்தானே","Well, let me see (pausing)",soudesune
+413,8,日本の生活に慣れましたか,にほんのせいかつになれましたか, ஜப்பான் வாழ்க்கைக்கு பழகிவிட்டீர்களா?,Have you got used to the life in Japan?,nihonnoseikatsuninaremashitaka
+414,8,～も一杯いかがですか,～もいっぱいいかがですか, இதையும் எடுத்துக்கொள்ளலாமா?,Won't you have another cup of ~?,～moippaiikagadesuka
+415,8,いいえ、けっこうです,いいえ、けっこうです," வேண்டாம், போதும்","No, thank you",iie、kekkoudesu
+416,8,もう～ですね,もう～ですね," ஏற்கனவே ~ ஆனது, அல்லவா?",It's already ~ (isn't it),mou～desune
+417,8,そろそろ失礼します,そろそろしつれいします, மெதுவாக செல்ல அனுமதி கேட்கிறேன் (சென்று வருகிறேன்),It's almost time to leave now,sorosoroshitsureishimasu
+418,8,またいらっしゃってください,またいらっしゃってください, மீண்டும் வாருங்கள்,Please come again,matairasshattekudasai
+419,9,わかります,わかります, புரிகிறது,understand,wakarimasu
+420,9,あります,あります, உள்ளது (உயிரற்ற பொருட்களுக்கு),have,arimasu
+421,9,好き,すき, விருப்பம்,like,suki
+422,9,嫌い,きらい, விருப்பமில்லாத,dislike,kirai
+423,9,上手,じょうず, திறமைசாலி,good at,jouzu
+424,9,下手,へた, திறமைக்குறைவான,poor at,heta
+425,9,料理,りょうり, சமையல்,"dish (cooked food), cooking",ryouri
+426,9,飲み物,のみもの, பானம்,drinks,nomimono
+427,9,スポーツ,スポーツ, விளையாட்டு,sport,supōtsu
+428,9,スポーツをします,スポーツをします, விளையாடுகிறேன்,play sports,supōtsu o shimasu
+429,9,野球,やきゅう, பேஸ்பால்,baseball,yakyuu
+430,9,野球をします,やきゅうをします, பேஸ்பால் விளையாடுகிறேன்,play baseball,yakyuu o shimasu
+431,9,ダンス,ダンス, நடனம்,dance,dansu
+432,9,ダンスをします,ダンスをします, நடனமாடுகிறேன்,dance,dansu o shimasu
+433,9,音楽,おんがく, இசை,music,ongaku
+434,9,歌,うた, பாடல்,song,uta
+435,9,クラシック,クラシック, பழமையான இசை (கிளாசிக்கல்),classical music,kurashikku
+436,9,ジャズ,ジャズ, ஜாஸ் இசை,jazz,jazu
+437,9,コンサート,コンサート, இசை நிகழ்ச்சி,concert,konsāto
+438,9,カラオケ,カラオケ, கரோக்கே பாடல்,karaoke,karaoke
+439,9,歌舞伎,かぶき, கபுகி நாடகம்,Kabuki (traditional Japanese musical drama),kabuki
+440,9,絵,え," படம், வரைப்படம்","picture, drawing",e
+441,9,字,じ, எழுத்து,"letter, character",ji
+442,9,漢字,かんじ, காண்ஜி எழுத்து,Chinese characters,kanji
+443,9,ひらがな,ひらがな, ஹிராகானா,Hiragana script,hiragana
+444,9,かたかな,かたかな, கதகானா,Katakana script,katakana
+445,9,ローマ字,ローマじ, ரோமாஜி (ஆங்கில எழுத்துக்கள் மூலம் ஜப்பானிய மொழி),the Roman alpahabet,rōmaji
+446,9,細かいお金,こまかいおかね, சிறு காசுகள்,small change,komakaiokane
+447,9,チケット,チケット, டிக்கெட்,ticket,chiketto
+448,9,時間,じかん, நேரம்,time,jikan
+449,9,用事,ようじ, வேலை (தனிப்பட்ட),"something to do, errand",youji
+450,9,約束,やくそく, சத்தியம்,"appointment, promise",yakusoku
+451,9,ご主人,ごしゅじん, (மற்றவரின்) கணவர்,(someone else's) husband,goshujin
+452,9,夫,おっと, (தனது) கணவர்,(my) husband,otto
+453,9,主人,しゅじん, (தனது) கணவர்,(my) husband,shujin
+454,9,奥さん,おくさん, (மற்றவரின்) மனைவி,(someone else's) wife,okusan
+455,9,妻,つま, (தனது) மனைவி,(my) wife,tsuma
+456,9,家内,かない, (தனது) மனைவி,(my) wife,kanai
+457,9,子ども,こども, குழந்தை,child,kodomo
+458,9,よく,よく," அடிக்கடி, நன்றாக","well, much",yoku
+459,9,だいたい,だいたい," பொதுவாக, பெரும்பாலும்","mostly, roughly",daitai
+460,9,たくさん,たくさん, நிறைய,"many, much",takusan
+461,9,少し,すこし, கொஞ்சம்,"a little, a few",sukoshi
+462,9,全然,ぜんぜん, ஒருபோதும் (எதிர்மறை விளக்கத்தில்),not at all (used with negatives),zenzen
+463,9,早く,はやく, விரைவாக,"early, quickly, fast",hayaku
+464,9,速く,はやく, சீக்கிரம்,"early, quickly, fast",hayaku
+465,9,～から,～から," ஏனெனில், இருந்து",because ~,～kara
+466,9,どうして,どうして, ஏன்,why,doushite
+467,9,残念です,ざんねんです, வருத்தமுள்ளது,"I'm sorry (to hear that), That's a pity",zannendesu
+468,9,すみません,すみません, மன்னிக்கவும்,I am sorry,sumimasen
+469,9,もしもし,もしもし, ஹலோ (தொலைபேசியில்),hello (used on phone),moshimoshi
+470,9,ああ,ああ, ஆ!!,oh,aa
+471,9,いっしょうにいかがですか,いっしょうにいかがですか, ஒன்றாக செய்வோம்?,Won't you join me (us)?,isshouniikagadesuka
+472,9,～はちょっと,～はちょっと, இது சற்றே... (மறுப்பதற்கான மரியாதையான வகை),~ is a bit difficult (euphemism used when declining an invitation),～hachotto
+473,9,だめですか,だめですか, முடியாதா?,So you cannot (come)?,damedesuka
+474,9,また今度お願いします,またこんどおねがいします, மறுபடியும் அடுத்த முறை,Please ask me again some other time (politely refusing invitation),matakondoonegaishimasu
+475,10,います,います, இருக்கிறது (உயிருள்ளவைகளுக்கு),"exist, be (animate objects)",imasu
+476,10,あります,あります, உள்ளது (உயிரற்றவைகளுக்கு),"exist, be (inanimate objects)",arimasu
+477,10,いろいろ,いろいろ, பலவகை,various,iroiro
+478,10,男の人,おとこのひと, ஆண் (நபர்),man,otokonohito
+479,10,女の人,おんなのひと, பெண் (நபர்),woman,onnanohito
+480,10,男の子,おとこのこ, சிறுவன்,boy,otokonoko
+481,10,女の子,おんなのこ, சிறுமி,girl,onnanoko
+482,10,犬,いぬ, நாய்,dog,inu
+483,10,猫,ねこ, பூனை,cat,neko
+484,10,木,き, மரம்,tree,ki
+485,10,物,もの, பொருள்,thing,mono
+486,10,フィルム,フィルム," திரைப்படம், ஃபிலிம்",film,firumu
+487,10,電池,でんち, பேட்டரி,battery,denchi
+488,10,箱,はこ, பெட்டி,box,hako
+489,10,スイッチ,スイッチ, ஸ்விட்ச்,switch,suicchi
+490,10,冷蔵庫,れいぞうこ, ஃப்ரிட்ஜ்,refrigerator,reizouko
+491,10,テーブル,テーブル, மேசை,table,tēburu
+492,10,ベッド,ベッド, படுக்கை,bed,beddo
+493,10,棚,たな, அலமாரி,shelf,tana
+494,10,ドア,ドア, கதவு,door,doa
+495,10,窓,まど, ஜன்னல்,window,mado
+496,10,ポスト,ポスト, அஞ்சல் பெட்டி,"mailbox, postbox",posuto
+497,10,ビル,ビル, கட்டிடம்,building,biru
+498,10,公園,こうえん, பூங்கா,park,kouen
+499,10,喫茶店,きっさてん," கஃபே, தேநீர்கடை",coffee shop,kissaten
+500,10,本屋,ほんや, புத்தகக் கடை,bookstore,honya
+501,10,～屋,～や, ~ கடை,~ store,～ya
+502,10,乗り場,のりば, நிறுத்தம் (வாகனங்களுக்கு),"a fixed place to catch taxis, trains, etc.",noriba
+503,10,県,けん," மாநிலம், மாவட்டம்",prefecture,ken
+504,10,上,うえ, மேல்,"on, above, over",ue
+505,10,下,した, கீழ்,"under, below, beneath",shita
+506,10,前,まえ, முன்னால்,"front, before",mae
+507,10,うしろ,うしろ, பின்னால்,"back, behind",ushiro
+508,10,右,みぎ, வலம்,right (side),migi
+509,10,左,ひだり, இடம்,left (side),hidari
+510,10,中,なか, உள்ளே,"in, inside",naka
+511,10,外,そと, வெளியே,outside,soto
+512,10,隣,となり, அண்டை,"next, next door",tonari
+513,10,近く,ちかく, அருகில்,"near, vicinity",chikaku
+514,10,間,あいだ, இடையில்,"between, among",aida
+515,10,～や～ など,～や～ など," மற்றும், போன்றவை","~, ~, and so on",～ya～ nado
+516,10,いちばん～,いちばん～, முதல்தர,the most ~,ichiban～
+517,10,いちばんうえ,いちばんうえ, மிக முதல்தர,the top,ichibanue
+518,10,～段目,～だんめ, வது அடுக்கு (அலமாரி),the ~th shelf,～danme
+519,10,だん,だん, அடுக்கு (அலமாரி),the counter for shelves,dan
+520,10,どうもすみません,どうもすみません, மிக்க நன்றி,Thank you,doumosumimasen
+521,10,チリソース,チリソース, சில்லி சாஸ்,chilli sauce,chirisōsu
+522,10,奥,おく, உள் பக்கம்,the back,oku
+523,10,スパイスコーナー,スパイスコーナー, மசாலா பொருட்கள் பகுதி,spice corner,supaisukōnā
+524,11,子供がいます,こどもがいます,குழந்தை உள்ளது,have a child,kodomogaimasu
+525,11,日本にいます,にほんにいます,ஜப்பானில் இருக்கிறேன்,"stay, be in Japan",nihonniimasu
+526,11,かかります,かかります,ஆகும் / எடுக்கும்,take (referring to time or money),kakarimasu
+527,11,会社を休みます,かいしゃをやすみます,நிறுவனத்தில் விடுமுறை பெறுகிறேன்,take a day off work,kaisha o yasumimasu
+528,11,一つ,ひとつ,ஒன்று,one (used when counting things),hitotsu
+529,11,二つ,ふたつ,இரண்டு,two (used when counting things),futatsu
+530,11,三つ,みっつ,மூன்று,three (used when counting things),mittsu
+531,11,四つ,よっつ,நான்கு,four (used when counting things),yottsu
+532,11,五つ,いつつ,ஐந்து,five (used when counting things),itsutsu
+533,11,六つ,むっつ,ஆறு,six (used when counting things),muttsu
+534,11,七つ,ななつ,ஏழு,seven (used when counting things),nanatsu
+535,11,八つ,やっつ,எட்டு,eight (used when counting things),yattsu
+536,11,九つ,ここのつ,ஒன்பது,nine (used when counting things),kokonotsu
+537,11,十,とお,பத்து,ten (used when counting things),too
+538,11,いくつ,いくつ,எத்தனை?,how many,ikutsu
+539,11,一人,ひとり,ஒருவர்,one person,hitori
+540,11,二人,ふたり,இருவர்,two people,futari
+541,11,～人,～にん,- பேர் (மக்கள் எண்ணிக்கை),~ people,～nin
+542,11,～台,～だい,- வாகனங்கள் எண்ணிக்கை,"(counter for machines, cars, etc.)",～dai
+543,11,～枚,～まい,"- மெல்லிய பொருட்கள் (காகிதம், பீஸ்கள்)","(counter for paper, stamps, etc.)",～mai
+544,11,～回,～かい,#NAME?,~ times,～kai
+545,11,りんご,りんご,ஆப்பிள்,apple,ringo
+546,11,みかん,みかん,ஆரஞ்ச்,mandarin orange,mikan
+547,11,サンドイッチ,サンドイッチ,சாண்ட்விச்,sandwich,sandoicchi
+548,11,カレー,カレー,குழம்பு,curry,karē
+549,11,カレーライス,カレーライス,குழம்பு சாதம்,curry rice,karēraisu
+550,11,アイスクリーム,アイスクリーム,ஐஸ் கிரீம்,ice cream,aisukurīmu
+551,11,切手,きって,தபால் தலை,postage stamp,kitte
+552,11,はがき,はがき,அஞ்சல் அட்டை,post card,hagaki
+553,11,封筒,ふうとう,உரையில் அடைக்கப்பட்ட கடிதம்,envelope,fuutou
+554,11,速達,そくたつ,விரைவுத் தபால்,special delivery,sokutatsu
+555,11,書留,かきとめ,பதிவு தபால்,registered mail,kakitome
+556,11,航空便,こうくうびん,விமான அஞ்சல்,airmail,koukuubin
+557,11,エヤメール,エヤメール,ஏர் மெயில்,airmail,eyamēru
+558,11,船便,ふなびん,கப்பல் அஞ்சல்,sea mail,funabin
+559,11,両親,りょうしん,பெற்றோர்கள்,parents,ryoushin
+560,11,兄弟,きょうだい,சகோதரர்கள்,brothers and sisters,kyoudai
+561,11,兄,あに,அண்ணன்,(my) elder brother,ani
+562,11,お兄さん,おにいさん,அண்ணன் (மற்றவருடைய),(someone else's) elder brother,oniisan
+563,11,姉,あね,அக்கா,(my) elder sister,ane
+564,11,お姉さん,おねえさん,அக்கா (மற்றவருடைய),(someone else's) elder sister,oneesan
+565,11,弟,おとうと,தம்பி,(my) younger brother,otouto
+566,11,弟さん,おとうとさん,தம்பி (மற்றவருடைய),(someone else's) younger brother,otoutosan
+567,11,妹,いもうと,தங்கை,(my) younger sister,imouto
+568,11,妹さん,いもうとさん,தங்கை (மற்றவருடைய),(someone else's) younger sister,imoutosan
+569,11,外国,がいこく,வெளிநாடு,foreign country,gaikoku
+570,11,～時間,～じかん,- மணி நேரம்,~ hours,～jikan
+571,11,～週間,～しゅうかん,- வாரங்கள்,~ weeks,～shuukan
+572,11,～か月,～かげつ,- மாதங்கள்,~ months,～kagetsu
+573,11,～年,～ねん,- ஆண்டுகள்,~ years,～nen
+574,11,～ぐらい,～ぐらい,- சுமார்,about ~,～gurai
+575,11,どのくらい,どのくらい,எவ்வளவு நேரம்?,how long,donokurai
+576,11,全部で,ぜんぶで,மொத்தம்,in total,zenbude
+577,11,みんな,みんな,அனைவரும்,"all, everything",minna
+578,11,～だけ,～だけ,- மட்டும்,only ~,～dake
+579,11,いらしゃいませ,いらしゃいませ,வரவேற்கிறோம்,"Welcome, May I help you? (a greeting to a customer or a guest entering a shop, etc.)",irashaimase
+580,11,いい天気ですね,いいてんきですね,"நல்ல வானிலை, அல்லவா?","Nice weather, isn't it?",iitenkidesune
+581,11,お出かけですか,おでかけですか,வெளியே போகிறீர்களா?,Are you going out?,odekakedesuka
+582,11,ちょっと～まで,ちょっと～まで,சிறிது … வரை,I'm just going to ~,chotto～made
+583,11,行っていらっしゃい,いっていらっしゃい,பத்திரமாக போங்கள்,So long. (lit. Go and come back.),itteirasshai
+584,11,行ってまいります,いってまいります,பத்திரமாக வருகிறேன்,So long. (lit. I'm going and coming back.),ittemairimasu
+585,11,それから,それから,அதன்பிறகு,"and, furthermore",sorekara
+586,11,オーストラリア,オーストラリア,ஆஸ்திரேலியா,Australia,ōsutoraria
+587,12,簡単,かんたん,எளியது,"easy, simple",kantan
+588,12,近い,ちかい,அருகில் உள்ளது,near,chikai
+589,12,遠い,とおい,தொலைவில் உள்ளது,far,tooi
+590,12,速い,はやい,வேகமானது,"fast, early",hayai
+591,12,遅い,おそい,மெதுவானது,"slow, late",osoi
+592,12,多い,おおい,அதிகமானது,"many, much",ooi
+593,12,人が多い,ひとがおおい,மக்கள் அதிகம்,many people,hitogaooi
+594,12,少ない,すくない,குறைவானது,"few, a little",sukunai
+595,12,人が少ない,ひとがすくない,மக்கள் குறைவு,few people,hitogasukunai
+596,12,暖かい,あたたかい,சூடானது,warm,atatakai
+597,12,温かい,あたたかい,சூடானது,warm,atatakai
+598,12,涼しい,すずしい,குளிர்ந்தது,cool,suzushii
+599,12,甘い,あまい,இனிப்பு,sweet,amai
+600,12,辛い,からい,காரம்,"hot (taste), spicy",karai
+601,12,重い,おもい,கனமானது,heavy,omoi
+602,12,軽い,かるい,இலகுவானது,light (of weight),karui
+603,12,コーヒーがいい,コーヒーがいい,காபி வேண்டும்,prefer coffee,kōhīgaii
+604,12,季節,きせつ,பருவ காலம்,season,kisetsu
+605,12,春,はる,வசந்த காலம்,spring,haru
+606,12,夏,なつ,கோடை,summer,natsu
+607,12,秋,あき,இலையுதிர் காலம்,"autumn, fall",aki
+608,12,冬,ふゆ,குளிர்காலம்,winter,fuyu
+609,12,天気,てんき,வானிலை,weather,tenki
+610,12,雨,あめ,மழை,rain,ame
+611,12,雪,ゆき,பனி,snow,yuki
+612,12,曇り,くもり,மேகமுற்ற வானிலை,cloudy,kumori
+613,12,ホテル,ホテル,ஹோட்டல்,hotel,hoteru
+614,12,空港,くうこう,விமான நிலையம்,airport,kuukou
+615,12,海,うみ,கடல்,"sea, ocean",umi
+616,12,世界,せかい,உலகம்,world,sekai
+617,12,パーティー,パーティー,விருந்துவிழா,party,pātī
+618,12,祭り,まつり,திருவிழா,festival,matsuri
+619,12,試験,しけん,தேர்வு,examination,shiken
+620,12,すき焼き,すきやき,சுக்கியாகி (ஜப்பானிய உணவு),sukiyaki (beef and vegetables hot pot),sukiyaki
+621,12,刺身,さしみ,சாஷிமி (மீன் உணவு),sashimi (sliced raw fish),sashimi
+622,12,すし,すし,சுஷி,sushi (vinagered rice topped with raw fish),sushi
+623,12,てんぷら,てんぷら,டெம்புரா (வறுத்த உணவு),tempura (seafood and vegetables deep fried in batter),tenpura
+624,12,生け花,いけばな,பூக்கள் அலங்காரம்,flower arrangement,ikebana
+625,12,生け花をします,いけばなをします,பூக்கள் அலங்காரம் செய்கிறேன்,do flower arrangement,ikebana o shimasu
+626,12,紅葉,もみじ,முட்டான இலைகள்,"maple, red leaves of autumn",momiji
+627,12,どちら,どちら,எது?,which one (between two things),dochira
+628,12,どちらも,どちらも,இரண்டும்,both,dochiramo
+629,12,ずっと,ずっと,எப்போதும் / தொடர்ச்சியாக,by far,zutto
+630,12,初めて,はじめて,முதன்முறையாக,for the first time,hajimete
+631,12,ただいま,ただいま,நான் வந்துவிட்டேன்,I'm home,tadaima
+632,12,おかえりなさい,おかえりなさい,உங்களை வரவேற்கிறேன்,Welcome home,okaerinasai
+633,12,すごいですね,すごいですね,மிக சிறப்பு!,That's amazing,sugoidesune
+634,12,でも,でも,ஆனால்,but,demo
+635,12,疲れました,つかれました,சோர்வாகிவிட்டேன்,(I'm) tired,tsukaremashita
+636,12,祇園祭,ぎおんまつり,கியோட்டோவின் புகழ்பெற்ற திருவிழா,"the Gion Festival, the most famous festival in Kyoto",gionmatsuri
+637,12,香港,ホンコン,ஹாங்காங்,Hong Kong,honkon
+638,12,シンガポール,シンガポール,சிங்கப்பூர்,Singapore,shingapōru
+639,13,遊びます,あそびます,விளையாடுகிறேன் / நேரத்தை கழிக்கிறேன்,"enjoy oneself, play",asobimasu
+640,13,泳ぎます,およぎます,நீந்துகிறேன்,swim,oyogimasu
+641,13,迎えます,むかえます,வரவேற்கிறேன் / எடுத்துச் செல்கிறேன்,"go to meet, welcome",mukaemasu
+642,13,疲れます,つかれます,சோர்வாகிறேன்,get tired,tsukaremasu
+643,13,出します,だします,வெளியே எடுக்கிறேன்,send,dashimasu
+644,13,手紙を出します,てがみをだします,கடிதம் அனுப்புகிறேன்,send a letter,tegami o dashimasu
+645,13,入ります,はいります,உள்ளே செல்கிறேன்,enter,hairimasu
+646,13,喫茶店に入ります,きっさてんにはいります,காபிக்கடைக்கு உள்ளே செல்கிறேன்,enter a coffee shop,kissaten ni hairimasu
+647,13,出ます,でます,வெளியே வருகிறேன்,go out,demasu
+648,13,喫茶店を出ます,きっさてんをでます,காபிக்கடையிலிருந்து வெளியே வருகிறேன்,go out of a coffee shop,kissaten o demasu
+649,13,結婚します,けっこんします,திருமணம் செய்கிறேன்,"marry, get married",kekkonshimasu
+650,13,買い物します,かいものします,ஷாப்பிங் செய்கிறேன்,do shopping,kaimonoshimasu
+651,13,食事します,しょくじします,உணவு உண்ணுகிறேன்,"have a meal, dine",shokujishimasu
+652,13,散歩します,さんぽします,நடப்பேன்,take a walk,sanposhimasu
+653,13,公園を散歩します,こうえんをさんぽします,பூங்காவில் சுற்றிப்பார்கிறேன்,take a walk in a park,kouen o sanposhimasu
+654,13,大変,たいへん,கடினமானது / கடுமையானது,"hard, tough, severe, awful",taihen
+655,13,欲しい,ほしい,வேண்டும்,want (something),hoshii
+656,13,寂しい,さびしい,தனிமையாக உள்ளது,lonely,sabishii
+657,13,広い,ひろい,பரந்தது / விசாலமானது,"wide, spacious",hiroi
+658,13,狭い,せまい,குறுகியது,"narrow, small (room, etc.)",semai
+659,13,市役所,しやくしょ,மாநகராட்சி அலுவலகம்,"municipal office, city hall",shiyakusho
+660,13,プール,プール,நீச்சல் குளம்,swimming pool,pūru
+661,13,川,かわ,ஆறு,river,kawa
+662,13,経済,けいざい,பொருளாதாரம்,economy,keizai
+663,13,美術,びじゅつ,கலை,fine arts,bijutsu
+664,13,釣り,つり,மீன்பிடித்தல்,fishing,tsuri
+665,13,釣りをします,つりをします,மீன்பிடிக்கிறேன்,to fish,tsuri o shimasu
+666,13,スキー,スキー,ஸ்கீ,skiing,sukī
+667,13,スキーをします,スキーをします,ஸ்கீயிங் செய்கிறேன்,ski,sukī o shimasu
+668,13,会議,かいぎ,கூட்டம்,"meeting, conference",kaigi
+669,13,会議をします,かいぎをします,கூட்டம் நடத்துகிறேன்,hold a conference,kaigi o shimasu
+670,13,登録,とうろく,பதிவுசெய்தல்,registration,touroku
+671,13,登録をします,とうろくをします,பதிவு செய்கிறேன்,register,touroku o shimasu
+672,13,週末,しゅうまつ,வார இறுதி,weekend,shuumatsu
+673,13,～ごろ,～ごろ,- நேரம் சுமார்,about (time),～goro
+674,13,何か,なにか,ஏதாவது,something,nanika
+675,13,どこか,どこか,எங்காவது,"somewhere, some place",dokoka
+676,13,おなかがすきました,おなかがすきました,பசிக்கிறது,(I'm) hungry,onakagasukimashita
+677,13,おなかがいっぱいです,おなかがいっぱいです,வயிறு நிரம்பியுள்ளது,(I'm) full,onakagaippaidesu
+678,13,のどがかわきました,のどがかわきました,தாகமாக உள்ளது,(I'm) thirsty,nodogakawakimashita
+679,13,そうですね,そうですね,"ஆம், அப்படித்தானே",I agree with you,soudesune
+680,13,そうしましょう,そうしましょう,அப்படியே செய்வோம்,Let's do that (used when agreeing to someone's suggestion),soushimashou
+681,13,ご注文は,ごちゅうもんは,உங்கள் ஆர்டர் என்ன?,May I take your order?,gochuumonha
+682,13,定食,ていしょく,செட் மீல் (உணவு வகை),set meal,teishoku
+683,13,牛どん,ぎゅうどん,பீப் ரைஸ் பவுல்,bowl of rice topped with beef,gyuudon
+684,13,少々お待ちください,しょうしょうおまちください,தயவுசெய்து காத்திருக்கவும்,Please wait a moment,shoushouomachikudasai
+685,13,別々に,べつべつに,தனித்தனியாக,separately,betsubetsuni
+686,13,ロシア,ロシア,ரஷ்யா,Russia,roshia
+687,14,つけます,つけます,ஒளி/விசிறி போன்றவற்றை இயக்குகிறேன்,turn on,tsukemasu
+688,14,消します,けします,அணைக்கிறேன்,turn off,keshimasu
+689,14,開けます,あけます,திறக்கிறேன்,open,akemasu
+690,14,閉めます,しめます,மூடுகிறேன்,"close, shut",shimemasu
+691,14,急ぎます,いそぎます,அவசரப்படுகிறேன்,hurry,isogimasu
+692,14,待ちます,まちます,காத்திருக்கிறேன்,wait,machimasu
+693,14,止めます,とめます,நிறுத்துகிறேன்,"stop, park",tomemasu
+694,14,曲がります,まがります,திருப்புகிறேன்,turn,magarimasu
+695,14,右へ曲がります み,ぎへまがります,வலத்துக்கு திருப்புகிறேன்,turn to the right,gihemagarimasu
+696,14,持ちます,もちます,பிடித்திருக்கிறேன்,hold,mochimasu
+697,14,取ります,とります,எடுத்துக்கொள்கிறேன்,"take, pass",torimasu
+698,14,手伝います,てつだいます,உதவுகிறேன்,help (with a task),tetsudaimasu
+699,14,呼びます,よびます,அழைக்கிறேன்,call,yobimasu
+700,14,話します,はなします,பேசுகிறேன்,"speak, talk",hanashimasu
+701,14,見せます,みせます,காட்டுகிறேன்,show,misemasu
+702,14,教えます,おしえます,சொல்லிக்கொடுப்பேன்,tell,oshiemasu
+703,14,住所を教えます,じゅうしょをおしえます,முகவரியை சொல்லிக்கொடுப்பேன்,tell an address,juushoooshiemasu
+704,14,始めます,はじめます,தொடங்குகிறேன்,"start, begin",hajimemasu
+705,14,降ります,ふります,(மழை/பனி) பெய்யும்,rain,furimasu
+706,14,雨が降ります,あめがふります,மழை பெய்கிறது,rain,amegafurimasu
+707,14,コピーします,コピーします,நகல் எடுக்கிறேன்,copy,kopīshimasu
+708,14,エアコン,エアコン,ஏர் கண்டிஷனர்,air conditioner,eakon
+709,14,パスポート,パスポート,பாஸ்போர்ட்,passport,pasupōto
+710,14,名前,なまえ,பெயர்,name,namae
+711,14,住所,じゅうしょ,முகவரி,address,juusho
+712,14,地図,ちず,வரைபடம்,map,chizu
+713,14,塩,しお,உப்பு,salt,shio
+714,14,砂糖,さとう,சர்க்கரை,sugar,satou
+715,14,読み方,よみかた,வாசிக்கும் முறை,"how to read, way of reading",yomikata
+716,14,～方,～かた,- செய்வது எப்படி,"how to ~, way of ~ing",～kata
+717,14,ゆっくり,ゆっくり,மெதுவாக,"slowly, leisurely",yukkuri
+718,14,すぐ,すぐ,உடனே,immediately,sugu
+719,14,また,また,மறுபடியும்,again,mata
+720,14,あとで,あとで,பிறகு,later,atode
+721,14,もう少し,もうすこし,இன்னும் கொஞ்சம்,a little more,mousukoshi
+722,14,もう～,もう～,இன்னொரு,"~ more, another ~",mou～
+723,14,いいですよ,いいですよ,"பரவாயில்லை, சரி","Sure, Certainly",iidesuyo
+724,14,さあ,さあ,சரி (ஊக்கமளிக்கும் சொல்),right (used when encouraging some course of action),saa
+725,14,あれ,あれ,அந்த,Oh! (in surprise or in wonder),are
+726,14,信号を右へ曲がってください,しんごうをみぎへまがってください,சிக்னலில் வலமாக திருப்புங்கள்,Turn right at the signal,shingouomigihemagattekudasai
+727,14,まっすぐ,まっすぐ,நேர்,straight,massugu
+728,14,これでお願いします,これでおねがいします,இதற்காக தயவுசெய்து,I'd like to pay with this,koredeonegaishimasu
+729,14,お釣り,おつり,மீதித் திருப்பிச் செலுத்தும் பணம்,change (money),otsuri
+730,15,立ちます,たちます,நிற்கிறேன்,stand up,tachimasu
+731,15,座ります,すわります,உட்கார்கிறேன்,sit down,suwarimasu
+732,15,使います,つかいます,பயன்படுத்துகிறேன்,use,tsukaimasu
+733,15,置きます,おきます,வைக்கிறேன் / எழுகிறேன்,put,okimasu
+734,15,作ります,つくります,தயாரிக்கிறேன்,"make, produce",tsukurimasu
+735,15,造ります,つくります,தயாரிக்கிறேன்,"make, produce",tsukurimasu
+736,15,売ります,うります,விற்கிறேன்,sell,urimasu
+737,15,知ります,しります,தெரிந்துகொள்கிறேன்,get to know,shirimasu
+738,15,住ます,すみます,வாழ்கிறேன்,be going to live,sumimasu
+739,15,研究します,けんきゅうします,ஆய்வு செய்கிறேன்,do research,kenkyuushimasu
+740,15,知っています,しっています,தெரியும்,know,shitteimasu
+741,15,知りません,しりません,தெரியாது,don't know,shirimasen
+742,15,住んでいます,すんでいます,வசிக்கிறேன்,live,sundeimasu
+743,15,大阪に住んでいます,おおさかにすんでいます,ஓசாகாவில் வசிக்கிறேன்,live in Osaka,oosakanisundeimasu
+744,15,資料,しりょう,ஆவணங்கள்,"materials, data",shiryou
+745,15,カタログ,カタログ,பட்டியல் (Catalog),catalog,katarogu
+746,15,時刻表,じこくひょう,நேர அட்டவணை,timetable,jikokuhyou
+747,15,服,ふく,உடைகள்,clothes,fuku
+748,15,製品,せいひん,தயாரிப்புகள்,products,seihin
+749,15,ソフト,ソフト,மென்பொருள் (Software),software,sofuto
+750,15,専門,せんもん,சிறப்பு/துறை,"speciality, field of study",senmon
+751,15,歯医者,はいしゃ,பல் மருத்துவர்,"dentist, dentist's",haisha
+752,15,床屋,とこや,கூர்முடி கடை,"barber, barber's",tokoya
+753,15,プレイガイド,プレイガイド,முன்பதிவு நிலையம்,(theatre) ticket agency,pureigaido
+754,15,独身,どくしん,திருமணம் செய்யாதவர்,"single, unmarried",dokushin
+755,15,特に,とくに,குறிப்பாக,especially,tokuni
+756,15,思い出します,おもいだします,நினைவுகூர்கிறேன்,"remember, recollect",omoidashimasu
+757,15,ご家族,ごかぞく,உங்கள் குடும்பம்,your family,gokazoku
+758,15,いらっしゃいます,いらっしゃいます,いきます/きます/います என்பதன் மரியாதை வடிவம்,be (honorific equivalent of imasu),irasshaimasu
+759,15,高校,こうこう,உயர் நிலைப் பள்ளி,senior high school,koukou
+760,15,立ちます,たちます,(மறுபடியும்) நிற்கிறேன்,stand up,tachimasu
+761,16,乗ります,のります,(வாகனம்) ஏறுகிறேன்,"ride, get on",norimasu
+762,16,電車に乗ります,でんしゃにのります,ரயிலில் ஏறுகிறேன்,"ride, get on a train",densha ni norimasu
+763,16,降ります,おります,(வாகனம்) இறங்குகிறேன்,get off,orimasu
+764,16,電車を降ります,でんしゃをおります,ரயிலில் இறங்குகிறேன்,get off a train,densha o orimasu
+765,16,乗り換えます,のりかえます,"மாற்றி ஏறுகிறேன் (பேருந்து, ரயில்)","change (trains, etc.)",norikaemasu
+766,16,シャワーを浴びます,シャワーをあびます,ஷவரில் குளிக்கிறேன்,take a shower,shawā o abimasu
+767,16,入れます,いれます,உள்ளே போடுகிறேன்,"put in, insert",iremasu
+768,16,出します,だします,வெளியே எடுக்கிறேன்,"take out, withdraw",dashimasu
+769,16,入ります,はいります,உள்ளே செல்கிறேன்,enter,hairimasu
+770,16,大学に入ります,だいがくにはいります,பல்கலைக்கழகத்தில் சேர்கிறேன்,enter a university,daigaku ni hairimasu
+771,16,出ます,でます,வெளியே வருகிறேன்,graduate,demasu
+772,16,大学を出ます,だいがくをでます,பல்கலைக்கழகத்திலிருந்து (படிப்பு முடிக்கிறேன்),graduate from a university,daigaku o demasu
+773,16,やめます,やめます,நிறுத்துகிறேன்,"quit or retire from, stop, give up",yamemasu
+774,16,会社をやめます,かいしゃをやめます,வேலையை விட்டு வெளியேறுகிறேன்,quit or retire from a company,kaisha o yamemasu
+775,16,押します,おします,அழுத்துகிறேன்,"press, push",oshimasu
+776,16,若い,わかい,இளம் வயது,young,wakai
+777,16,長い,ながい,நீளமானது,long,nagai
+778,16,短い,みじかい,குறுகிய,short,mijikai
+779,16,明るい,あかるい,பிரகாசமான,"bright, light",akarui
+780,16,暗い,くらい,இருண்ட,dark,kurai
+781,16,背が高い,せがたかい,உயரமான (மனிதர்கள்),tall (referring to person),segatakai
+782,16,頭がいい,あたまがいい,புத்திசாலி,"clever, smart",atamagaii
+783,16,体,からだ,உடல்,body,karada
+784,16,頭,あたま,தலை,head,atama
+785,16,髪,かみ,முடி,hair,kami
+786,16,顔,かお,முகம்,face,kao
+787,16,目,め,கண்,eye,me
+788,16,耳,みみ,காது,ear,mimi
+789,16,口,くち,வாய்,mouth,kuchi
+790,16,歯,は,பல்,tooth,wa
+791,16,おなか,おなか,வயிறு,stomach,onaka
+792,16,足,あし,கால்,"leg, foot",ashi
+793,16,サービス,サービス,சேவை,service,sābisu
+794,16,ジョギング,ジョギング,ஜோகிங் (விரைவு நடை),jogging,jogingu
+795,16,ジョギングをします,ジョギングをします,ஜோகிங் செய்கிறேன்,jog,jogingu o shimasu
+796,16,シャワー,シャワー,ஷவர்,shower,shawā
+797,16,緑,みどり,பசுமை,"green, greenery",midori
+798,16,寺,てら,புத்த கோவில்,Buddhist temple,tera
+799,16,神社,じんじゃ,ஷின்டோ கோவில்,Shinto shrine,jinja
+800,16,留学生,りゅうがくせい,வெளிநாட்டு மாணவர்,foreign student,ryuugakusei
+801,16,～番,～ばん,-வது (எண்),number ~,～ban
+802,16,どうやって,どうやって,எப்படி,"in what way, how",douyatte
+803,16,どの～,どの～,எந்த,which ~ (used for three or more),dono～
+804,16,いいえまだまだです,いいえまだまだです,"இல்லை, இன்னும் இல்லை","No, I still have a long way to go",iiemadamadadesu
+805,16,お引き出しですか,おひきだしですか,பணம் எடுக்கிறீர்களா?,Are you making a withdrawl?,ohikidashidesuka
+806,16,まず,まず,முதலில்,first of all,mazu
+807,16,キャッシュカード,キャッシュカード,ஏடிஎம் கார்டு,cash dispensing card,kyasshukādo
+808,16,暗証番号,あんしょうばんごう,பின் எண் (PIN),"personal identification number, PIN",anshoubangou
+809,16,次に,つぎに,அடுத்து,"next, as a next step",tsugini
+810,16,金額,きんがく,தொகை,amount of money,kingaku
+811,16,確認,かくにん,உறுதி,confirmation,kakunin
+812,16,確認します,かくにんします,உறுதிப்படுத்துகிறேன்,confirm,kakuninshimasu
+813,16,ボタン,ボタン,பொத்தான்,button,botan
+814,16,アジア,アジア,ஆசியா,Asia,ajia
+815,16,バンドン,バンドン,பாண்டோங் (இன்டோனேசிய நகரம்),Bandung (in Indonesia),bandon
+816,16,ベラクルス,ベラクルス,வெராக்ரூஸ் (மெக்ஸிகோ நகரம்),Veracruz (in Mexico),berakurusu
+817,16,フランケン,フランケン,பிராங்கென் (ஜெர்மனி பகுதி),Franken (in Germany),furanken
+818,16,ベトナム,ベトナム,வியட்நாம்,Vietnam,betonamu
+819,16,フエ,フエ,ஹுவே (வியட்நாம் நகரம்),Hue (in Vietnam),fue
+820,17,覚えます,おぼえます,நினைவில் வைத்துக்கொள்கிறேன்,memorize,oboemasu
+821,17,忘れます,わすれます,மறக்கிறேன்,forget,wasuremasu
+822,17,なくします,なくします,இழக்கிறேன்,lose,nakushimasu
+823,17,出します,だします,வெளியில் எடுக்கிறேன்,hand in,dashimasu
+824,17,レポートを出します,レポートをだします,அறிக்கையை சமர்ப்பிக்கிறேன்,hand in a report,repōto o dashimasu
+825,17,払います,はらいます,பணம் செலுத்துகிறேன்,pay,haraimasu
+826,17,返します,かえします,திருப்பித் தருகிறேன்,"give back, return",kaeshimasu
+827,17,出かけます,でかけます,வெளியே செல்கிறேன்,go out,dekakemasu
+828,17,脱ぎます,ぬぎます,உடை கழற்றுகிறேன்,"take off (clothes, shoes, etc.)",nugimasu
+829,17,持って行ます,もっていきます,எடுத்துச் செல்கிறேன்,take (something),motteikimasu
+830,17,持って来ます,もってきます,எடுத்துக் கொண்டு வருகிறேன்,bring (something),mottekimasu
+831,17,心配します,しんぱいします,கவலைப்படுகிறேன்,worry,shinpaishimasu
+832,17,残業します,ざんぎょうします,கூடுதல் நேரம் வேலை செய்கிறேன்,work overtime,zangyoushimasu
+833,17,出張します,しゅっちょうします,அலுவல் பயணம் செல்கிறேன்,go on a business trip,shucchoushimasu
+834,17,薬を飲みます,くすりをのみます,மருந்து குடிக்கிறேன்,take medicine,kusuri o nomimasu
+835,17,おふろに入ります,おふろにはいります,குளிக்கிறேன் (நீராடுகிறேன்),take a bath,ofuro ni hairimasu
+836,17,大切,たいせつ,முக்கியமானது,"important, precious",taisetsu
+837,17,大丈夫,だいじょうぶ,பரவாயில்லை,all right,daijoubu
+838,17,危ない,あぶない,ஆபத்தானது,dangerous,abunai
+839,17,問題,もんだい,பிரச்சனை / கேள்வி,"question, problem, trouble",mondai
+840,17,答え,こたえ,பதில்,answer,kotae
+841,17,禁煙,きんえん,புகைபிடித்தல் வேண்டாம்,no smoking,kinen
+842,17,健康保険証,けんこうほけんしょう,மருத்துவ காப்பீட்டுச் சீட்டு,health insurance card,kenkouhokenshou
+843,17,かぜ,かぜ,காய்ச்சல் / குளிர்,cold (illness),kaze
+844,17,熱,ねつ,உடல் வெப்பம்,fever,netsu
+845,17,病気,びょうき,நோய்வாய்ப்பாடு,"illness, disease",byouki
+846,17,薬,くすり,மருந்து,medicine,kusuri
+847,17,おふろ,おふろ,குளியல்,bath,ofuro
+848,17,上着,うわぎ,மேலுடை,"jacket, outerwear",uwagi
+849,17,下着,したぎ,உட்சட்டை,underwear,shitagi
+850,17,先生,せんせい,ஆசிரியர்,doctor (used when addressing a medical doctor),sensei
+851,17,～までに,～までに,-க்குள் (காலக்கெடு),"before ~, by ~ (indicating time limit)",～madeni
+852,17,ですから,ですから,அதனால்,"therefore, so",desukara
+853,17,どうしましたか,どうしましたか,என்ன ஆனது?,What's the matter?,doushimashitaka
+854,17,～が痛いです,～がいたいです,- வலிக்கிறது,have a pain in my ~,～gaitaidesu
+855,17,のど,のど,தொண்டை,throat,nodo
+856,17,お大事に,おだいじに,உடல் நலனைக் கவனித்துக் கொள்ளுங்கள்,Take care of yourself (said to people who are ill),odaijini
+857,18,できます,できます,முடியும்,"be able to, can",dekimasu
+858,18,洗います,あらいます,கழுவுகிறேன்,wash,araimasu
+859,18,弾きます,ひきます,வாசிக்கிறேன் (இசைக்கருவி),"play (stringed instrument or piano, etc.)",hikimasu
+860,18,歌います,うたいます,பாடுகிறேன்,sing,utaimasu
+861,18,集めます,あつめます,சேகரிக்கிறேன்,"collect, gather",atsumemasu
+862,18,捨てます,すてます,தூக்கி எறிகிறேன்,throw away,sutemasu
+863,18,換えます,かえます,மாற்றுகிறேன்,"exchange, change",kaemasu
+864,18,運転します,うんてんします,ஓட்டுகிறேன்,drive,untenshimasu
+865,18,予約します,よやくします,முன்பதிவு செய்கிறேன்,"reserve, book",yoyakushimasu
+866,18,見学します,けんがくします,சுற்றிப் பார்க்கிறேன்,visit some place for study,kengakushimasu
+867,18,ピアノ,ピアノ,பியானோ,piano,piano
+868,18,～メートル,～メートル,- மீட்டர்,~ meter,～mētoru
+869,18,国際～,こくさい～,சர்வதேச,international ~,kokusai～
+870,18,現金,げんきん,பணம் (நகட்பணம்),cash,genkin
+871,18,趣味,しゅみ,பொழுதுபோக்கு,hobby,shumi
+872,18,日記,にっき,நாட்குறிப்பு,diary,nikki
+873,18,お祈り,おいのり,பிரார்த்தனை,prayer,oinori
+874,18,お祈りをします,おいのりをします,பிரார்த்தனை செய்கிறேன்,pray,oinori o shimasu
+875,18,課長,かちょう,குழு தலைவர்,section chief,kachou
+876,18,部長,ぶちょう,பிரிவு தலைவர்,department chief,buchou
+877,18,社長,しゃちょう,நிறுவனர் / மேனேஜர்,president of a company,shachou
+878,18,動物,どうぶつ,விலங்கு,animal,doubutsu
+879,18,馬,うま,குதிரை,horse,uma
+880,18,へえ,へえ,ஓஹோ!,Really! (used when expressing surprise),hee
+881,18,それはおもしろいですね,それはおもしろいですね,அது சுவாரஸ்யமாக இருக்கிறது,That must be interesting,sorehaomoshiroidesune
+882,18,なかなか,なかなか,எளிதில் / மிகவும்,not easily (used with negatives),nakanaka
+883,18,牧場,ぼくじょう,பண்ணை (மாடுப்பண்ணை),"ranch, stock farm",bokujou
+884,18,ほんとうですか,ほんとうですか,உண்மையாகவா?,Really?,hontoudesuka
+885,18,ぜひ,ぜひ,கண்டிப்பாக,by all means,zehi
+886,19,登ります,のぼります,"ஏறுகிறேன் (மலை, கட்டிடம்)",climb,noborimasu
+887,19,山に登ります,やまにのぼります,மலையில் ஏறுகிறேன்,climb a mountain,yama ni noborimasu
+888,19,泊まります,とまります,தங்குகிறேன்,stay,tomarimasu
+889,19,ホテルに泊まります,ホテルにとまります,ஹோட்டலில் தங்குகிறேன்,stay at a hotel,hoteru ni tomarimasu
+890,19,掃除します,そうじします,சுத்தம் செய்கிறேன்,clean (a room),soujishimasu
+891,19,洗濯します,せんたくします,துணி துவைக்கிறேன்,wash (clothes),sentakushimasu
+892,19,練習します,れんしゅうします,பயிற்சி செய்கிறேன்,practice,renshuushimasu
+893,19,なります,なります,ஆகிறேன்,become,narimasu
+894,19,眠い,ねむい,தூக்கம் வருகிறது,sleepy,nemui
+895,19,強い,つよい,வலிமையானது,strong,tsuyoi
+896,19,弱い,よわい,பலவீனமானது,weak,yowai
+897,19,調子がいい,ちょうしがいい,நிலைமை நல்லது,be in good condition,choushigaii
+898,19,調子が悪い,ちょうしがわるい,நிலைமை மோசமானது,be in bad condition,choushigawarui
+899,19,調子,ちょうし,நிலைமை / கணிப்பு,condition,choushi
+900,19,ゴルフ,ゴルフ,கால்ஃப் விளையாட்டு,golf,gorufu
+901,19,ゴルフをします,ゴルフをします,கால்ஃப் விளையாடுகிறேன்,play golf,gorufu o shimasu
+902,19,相撲,すもう,சுமோ மல்யுத்தம்,sumo wrestling,sumou
+903,19,パチンコ,パチンコ,பாசிங்கோ (ஜப்பானிய சூதாட்டம்),pinball game,pachinko
+904,19,パチンコをします,パチンコをします,பாசிங்கோ விளையாடுகிறேன்,play pachinko,pachinko o shimasu
+905,19,お茶,おちゃ,பச்சை தேநீர்,tea ceremony,ocha
+906,19,日,ひ,நாள் / தீ,"day, date",hi
+907,19,一度,いちど,ஒருமுறை,once,ichido
+908,19,一度も,いちども,ஒருமுறையும் (முடியாது),"not once, never (used with negatives)",ichidomo
+909,19,だんだん,だんだん,படிப்படியாக,gradually,dandan
+910,19,もうすぐ,もうすぐ,விரைவில்,soon,mousugu
+911,19,おかげさまで,おかげさまで,உங்கள் அருளால் (நன்றி செலுத்தும் போது),Thank you (expressing gratitude for help received),okagesamade
+912,19,乾杯,かんぱい,வாழ்த்துகள் (கிளாஸ் மோதுகையில்),"Bottoms up!, Cheers!",kanpai
+913,19,実は,じつは,உண்மையில்,"actually, to tell the truth",jitsuha
+914,19,ダイエット,ダイエット,உடல் எடையை குறைப்பது,diet,daietto
+915,19,ダイエットをします,ダイエットをします,உடல் எடையை குறைக்கிறேன்,go on a diet,daietto o shimasu
+916,19,何回も,なんかいも,பலமுறை,many times,nankaimo
+917,19,しかし,しかし,ஆனால்,"but, however",shikashi
+918,19,無理,むり,இயலாது,"excessive, impossible",muri
+919,19,体にいい,からだにいい,உடலுக்கு நல்லது,good for one's health,karadaniii
+920,19,ケーキ,ケーキ,கேக்,cake,kēki
+921,19,葛飾北斎,かつしかほくさい,"(கட்சுஷிகா ஹோகுசாய், புகழ்பெற்ற ஜப்பானிய ஓவியர்)",Katsushika Hokusai (Edo era artist),Katsushika Hokusai
+922,20,要ります,いります,தேவைப்படுகிறது,"need, require",irimasu
+923,20,ビザが要ります,ビザがいります,வீசா தேவைப்படுகிறது,"need, require a visa",biza ga irimasu
+924,20,調べます,しらべます,ஆராய்கிறேன்,"check, investigate",shirabemasu
+925,20,直します,なおします,பழுது பார்த்து சரி செய்கிறேன்,"repair, correct",naoshimasu
+926,20,修理します,しゅうりします,பழுது பார்க்கிறேன்,repair,shuurishimasu
+927,20,電話します,でんわします,தொலைபேசியில் அழைக்கிறேன்,to phone,denwashimasu
+928,20,僕,ぼく,நான் (ஆண்கள் பயன்பாட்டில்),I (an infomal equivalent of watshi used by men),boku
+929,20,君,きみ,நீ (நெருக்கமானவர்களுக்கு பயன்படும்),you (an informal equivalent of anata used by men),kimi
+930,20,～君,～くん,குன் (ஆண் பெயர்களுக்கு பின்னால்),Mr. (an informal equivalent of ~san used by men),～kun
+931,20,うん,うん,ஆமாம்,yes (an informal equivalent of hai),un
+932,20,ううん,ううん,இல்லை,no (an informal equivalent of iie),uun
+933,20,サラレーマン,サラレーマン,தனியார் நிறுவன ஊழியர்,"salaried worker, office worker",sararēman
+934,20,ことば,ことば,வார்த்தை / மொழி,"word, language",kotoba
+935,20,物価,ぶっか,விலைவாசி,commodity prices,bukka
+936,20,着物,きもの,ஜப்பான் பாரம்பரிய உடை,kimono (traditional Japanese attire),kimono
+937,20,ビサ,ビザ,வீசா,visa,biza
+938,20,初め,はじめ,தொடக்கம்,the beginning,hajime
+939,20,終わり,おわり,முடிவு,the end,owari
+940,20,こっち,こっち,இந்தப் பக்கம்,"this way, this place (an informal equivalent of kochira)",kocchi
+941,20,そっち,そっち,அந்தப் பக்கம்,"this way, that place (an informal equivalent of sochira)",socchi
+942,20,あっち,あっち,அங்கு,"this way, that place over there (an informal equivalent of achira)",acchi
+943,20,どっち,どっち,எது? / எந்தப் பக்கம்?,"which one (between two things), which way, where (an informal equivalent of dochira)",docchi
+944,20,あの間,あのあいだ,அண்மையில்,the other day,anoaida
+945,20,みんなで,みんなで,அனைவரும் சேர்ந்து,all together,minnade
+946,20,～けど,～けど ~,ஆனால் / என்றாலும்,but (an infomal equivalent of ga),～kedo ~
+947,20,国へ帰るの,くにへかえるの,நாட்டுக்கு திரும்பப் போகிறாயா?,Are you going back to your country?,kunihekaeruno
+948,20,どうするの,どうするの,என்ன செய்யப் போகிறாய்?,What will you do?,dousuruno
+949,20,どうしようかな,どうしようかな,என்ன செய்வது?,What shall I do?,doushiyoukana
+950,20,よかったら,よかったら,விருப்பமானால்,if you like,yokattara
+951,20,いろいろ,いろいろ,பலவகை,various,iroiro
+952,21,思う,おもいます,நினைக்கிறேன்,think,omoimasu
+953,21,言う,いいます,கூறுகிறேன் / சொல்கிறேன்,say,iimasu
+954,21,足る,たります,போதுமானது / இருக்கிறது,"be enough, be sufficient",tarimasu
+955,21,勝つ,かちます,வெற்றி பெறுகிறேன்,win,kachimasu
+956,21,負ける,まけます,தோற்கிறேன்,"lose, be beaten",makemasu
+957,21,あります,あります,உள்ளது,"be held, take place",arimasu
+958,21,お祭があります,おまつりがあります,திருவிழா உள்ளது,"a festival is held, takes place",omatsuri ga arimasu
+959,21,役に立ちます,やくにたちます,பயனுள்ளதாக இருக்கும்,be useful,yakunitachimasu
+960,21,むだ,むだ,வீணாக / பயனற்றது,wasteful,muda
+961,21,不便,ふべん,வசதியில்லாதது,inconvenient,fuben
+962,21,同じ,おなじ,ஒன்றே,the same,onaji
+963,21,すごい,すごい,அற்புதம் / அதிசயமானது,"awful, great (expresses astonishment or admiration)",sugoi
+964,21,首相,しゅしょう,பிரதமர்,prime minister,shushou
+965,21,大統領,だいとうりょう,குடியரசுத் தலைவர்,president,daitouryou
+966,21,政治,せいじ,அரசியல்,politics,seiji
+967,21,ニュース,ニュース,செய்திகள்,news,nyūsu
+968,21,スピーチ,スピーチ,பேச்சு,speech,supīchi
+969,21,スピーチをします,スピーチをします,பேச்சு பேசுகிறேன்,make a speech,supīchi o shimasu
+970,21,試合,しあい,போட்டி,"game, match",shiai
+971,21,アルバイト,アルバイト,பகுதி நேர வேலை,side job,arubaito
+972,21,アルバイトをします,アルバイトをします,பகுதி நேரமாக வேலை செய்கிறேன்,work part time,arubaito o shimasu
+973,21,意見,いけん,கருத்து,opinion,iken
+974,21,話,はなし,உரை / பேச்சு,"talk, speech, what one says, story",hanashi
+975,21,話をします,はなしをします,பேசுகிறேன்,"talk, tell a story",hanashi o shimasu
+976,21,ユーモア,ユーモア,நகைச்சுவை,humor,yūmoa
+977,21,むだ,むだ,வீண்/பயனற்றது,"waste, futility, pointlessness",muda
+978,21,デザイン,デザイン,வடிவமைப்பு,design,dezain
+979,21,交通,こうつう,போக்குவரத்து,"transportation, traffic",koutsuu
+980,21,ラッシュ,ラッシュ,நெரிசல் (Traffic Rush),rush hour,rasshu
+981,21,最近,さいきん,சமீபத்தில்,"recently, these days",saikin
+982,21,たぶん,たぶん,இருக்கலாம் (அநேகமாக),"probably, perhaps, maybe",tabun
+983,21,きっと,きっと,கண்டிப்பாக,surely,kitto
+984,21,ほんとうに,ほんとうに,உண்மையாகவே,really,hontouni
+985,21,そんなに,そんなに,அப்படியோ?,not so much (used with negatives),sonnani
+986,21,～について,～について,~ பற்றி,"about ~, concerning ~",～nitsuite
+987,21,しかたがありません,しかたがありません,செய்வதற்கு வழியில்லை,There is no other choice. It can't be helped,shikatagaarimasen
+988,21,しばらくですね,しばらくですね,நீண்ட நாட்களுக்கு பிறகு சந்திக்கிறேன்,It's been a long time (since I last saw you). Long time no see,shibarakudesune
+989,21,～でも飲みませんか,～でものみませんか,~கொஞ்சம் குடிக்கலாமா?,How about drinking ~ or something?,～demonomimasenka
+990,21,見ないと,みないと,பார்க்க வேண்டும்,I've got to watch it,minaito
+991,21,もちろん,もちろん,கண்டிப்பாக / நிச்சயமாக,of course,mochiron
+992,21,カンガルー,カンガルー,கங்காரு,kangaroo,kangarū
+993,21,キャプテンクック,キャプテンクック,கேப்டன் குக்,Captain Cook (Famous Explorer),Kyaputen Kukku
+994,22,着ます,きます,அணியிறேன்,"put on (a shirt, etc.)",kimasu
+995,22,シャツを着ます,シャツをきます,சட்டை அணிகிறேன்,put on a shirt,shatsu o kimasu
+996,22,はきます,はきます,"(காலணி, பான்ட்) அணிகிறேன்","put on (shoes, trousers, etc.)",hakimasu
+997,22,靴をはきます,くつをはきます,காலணியை அணிகிறேன்,put on shoes,kutsu o hakimasu
+998,22,かぶります,かぶります,(தொப்பி) அணிகிறேன்,"put on (a hat, etc)",kaburimasu
+999,22,帽子をかぶります,ぼうしをかぶります,தொப்பி அணிகிறேன்,put on a hat,boushi o kaburimasu
+1000,22,眼鏡をかけます,めがねをかけます,மூக்குக் கண்ணாடி அணிகிறேன்,put on glasses,megane o kakemasu
+1001,22,生まれます,うまれます,பிறக்கிறேன்,be born,umaremasu
+1002,22,コート,コート,மேலங்கி,coat,kōto
+1003,22,スーツ,スーツ,சூட் (அருமையான உடை),suit,sūtsu
+1004,22,セーター,セーター,ஸ்வேட்டர் ,sweater,sētā
+1005,22,帽子,ぼうし,தொப்பி,"hat, cap",boushi
+1006,22,眼鏡,めがね,மூக்குக் கண்ணாடி,glasses,megane
+1007,22,よく,よく,அடிக்கடி / நன்றாக,often,yoku
+1008,22,おめでとうございます,おめでとうございます,வாழ்த்துக்கள்!,Congratulations (used for special events),omedetougozaimasu
+1009,22,こちら,こちら,இங்கே,this (polite equivalent of kore),kochira
+1010,22,家賃,やちん,வீட்டு வாடகை,house rent,yachin
+1011,22,うーん,うーん,(தயக்கமான எதிர்வினை),Let me see,ūn
+1012,22,ダイニングキチン,ダイニングキチン,உணவறை+சமையலறை (Dining Kitchen),kitchen with a dining area,dainingukichin
+1013,22,和室,わしつ,ஜப்பானிய முறை அறை,Japanese-style room,washitsu
+1014,22,押し入れ,おしいれ,பொருள் வைக்கும் இடம்,Japanese-style closet,oshiire
+1015,22,布団,ふとん,ஜப்பானிய படுக்கை,Japanese-style matress and quilt,futon
+1016,22,アパート,アパート,குடியிருப்பு (Apartment),apartment,apāto
+1017,22,パリ,パリ,பாரிஸ்,Paris,Pari
+1018,23,聞きます,ききます,கேட்கிறேன்,ask,kikimasu
+1019,23,先生に聞きます,せんせいにききます,ஆசிரியை/முதல்வரிடம் கேட்கிறேன்,ask the teacher,sensei ni kikimasu
+1020,23,回します,まわします,சுழற்றுகிறேன்,turn,mawashimasu
+1021,23,引きます,ひきます,இழுக்கிறேன்,pull,hikimasu
+1022,23,変えます,かえます,மாற்றுகிறேன்,change,kaemasu
+1023,23,触ります,さわります,தொடுகிறேன்,touch,sawarimasu
+1024,23,アに触ります,ドアにさわります,கதவை தொடுகிறேன்,touch a door,doa ni sawarimasu
+1025,23,出ます,でます,வெளியேறுகிறேன்,come out,demasu
+1026,23,お釣りが出ます,おつりがでます,மீதிப் பணம் வருகிறது,change (money) comes out,otsuri ga demasu
+1027,23,動きます,うごきます,நகரும் / இயங்கும்,"move, work",ugokimasu
+1028,23,時計が動きます う,とけいがごきます,கடிகாரம் இயங்குகிறது,"a watch/clock moves, works",tokei ga gokimasu
+1029,23,歩きます,あるきます,நடக்கிறேன்,walk,arukimasu
+1030,23,道を歩きます,みちをあるきます,தெருவில் நடக்கிறேன்,walk along a road,michi o arukimasu
+1031,23,渡ります,わたります,கடக்கிறேன்,cross,watarimasu
+1032,23,橋を渡ります,はしをわたります,பாலம் கடக்கிறேன்,cross a bridge,hashi o watarimasu
+1033,23,気をつけます,きをつけます,கவனமாக இருக்கிறேன்,"pay attention, take care",kiotsukemasu
+1034,23,車に気をつけます,くるまにきをつけます,காரை கவனமாக பார்த்துக்கொள்ளுங்கள்,pay attention to cars,kuruma ni kiotsukemasu
+1035,23,引っ越しします,ひっこしします,குடியாற்ற மாற்றம் செய்கிறேன்,move (house),hikkoshishimasu
+1036,23,電気屋,でんきや,மின்சாதனக் கடை,electrician,denkiya
+1037,23,～屋,～や,~கடைக்காரர் ,person of ~ shop,～ya
+1038,23,サイズ,サイズ,அளவு (Size),size,saizu
+1039,23,音,おと,சத்தம்,sound,oto
+1040,23,機械,きかい,இயந்திரம்,machine,kikai
+1041,23,つまみ,つまみ,சுழற்றும் பொத்தான்,knob,tsumami
+1042,23,故障,こしょう,பழுது,breakdown,koshou
+1043,23,故障します,こしょうします,பழுதாகிறது,break down,koshoushimasu
+1044,23,道,みち,தெரு,"road, way",michi
+1045,23,交差点,こうさてん,சந்திப்பு சாலை,crossroad,kousaten
+1046,23,信号,しんごう,சிக்னல்,traffic light,shingou
+1047,23,角,かど,மூலையில்,corner,kado
+1048,23,橋,はし,பாலம்,bridge,hashi
+1049,23,駐車場,ちゅうしゃじょう,கார் நிறுத்துமிடம்,"parking lot, car park",chuushajou
+1050,23,～目,～め,~ஆம் (முன்னிலையில்),the -th (indicating order),～me
+1051,23,正月,しょうがつ,புத்தாண்டு,New Year's Day,shougatsu
+1052,23,ごちそうさまでした,ごちそうさまでした,சாப்பிட்டதற்கு நன்றி,That was delicious (said after eating or drinking),gochisousamadeshita
+1053,23,建物,たてもの,கட்டிடம்,building,tatemono
+1054,23,外国人登録証,がいこくじんとうろくしょう,வெளிநாட்டவர் பதிவு அட்டை,alien registration card,gaikokujintourokushou
+1055,24,くれます,くれます,கொடுக்கிறார்கள் (எனக்கு),give (me),kuremasu
+1056,24,連れて行きます,つれていきます,அழைத்துச் செல்கிறேன்,take (someone),tsureteikimasu
+1057,24,連れて来ます,つれてきます,அழைத்துக் கொண்டு வருகிறேன்,bring (someone),tsuretekimasu
+1058,24,送ります,おくります,அனுப்புகிறேன்,"escort, go with",okurimasu
+1059,24,人を送ります,ひとをおくります,ஒருவரை அனுப்புகிறேன்,"escort, go with someone",hito o okurimasu
+1060,24,紹介します,しょうかいします,அறிமுகம் செய்கிறேன்,introduce,shoukaishimasu
+1061,24,案内します,あんないします,வழிகாட்டுகிறேன்,"show around, show the way",annaishimasu
+1062,24,説明します,せつめいします,விளக்குகிறேன்,explain,setsumeishimasu
+1063,24,コーヒーをいれます,コーヒーをいれます,காபி தயாரிக்கிறேன்,make coffee,kōhī o iremasu
+1064,24,おじいさん,おじいさん,தாத்தா,"grandfather, old man",ojiisan
+1065,24,おじいちゃん,おじいちゃん,தாத்தா (அன்பாக),"grandfather, old man",ojiichan
+1066,24,おばあさん,おばあさん,பாட்டி,"grandmother, old woman",obaasan
+1067,24,おばあちゃん,おばあちゃん,பாட்டி (அன்பாக),"grandmother, old woman",obaachan
+1068,24,準備,じゅんび,தயார்,preparation,junbi
+1069,24,準備します,じゅんびします,தயாராக செய்கிறேன்,prepare,junbishimasu
+1070,24,意味,いみ,அர்த்தம்,meaning,imi
+1071,24,お菓子,おかし,இனிப்பு (Snacks),"sweets, snacks",okashi
+1072,24,全部,ぜんぶ,முழுவதும்,all,zenbu
+1073,24,自分で,じぶんで,நான் செவியாக,by oneself,jibunde
+1074,24,ほかに,ほかに,வேறு எதுவும்,besides,hokani
+1075,24,ワゴン車,ワゴンしゃ,வாகன் கார்,station wagon,wagonsha
+1076,24,弁当,べんとう,லஞ்ச் பாக்ஸ் (Bento),box lunch,bentou
+1077,25,考えます,かんがえます,யோசிக்கிறேன்,"think, consider",kangaemasu
+1078,25,着きます,つきます,சேர்கிறேன்,arrive,tsukimasu
+1079,25,駅に着きます,えきにつきます,நிலையத்திற்கு சேர்கிறேன்,arrive at the station,eki ni tsukimasu
+1080,25,留学します,りゅうがくします,வெளிநாட்டில் படிக்கிறேன்,study abroad,ryuugakushimasu
+1081,25,年を取ります,としをとります,வயதாகிறேன்,grow old,toshi o torimasu
+1082,25,田舎,いなか,கிராமம்,"countryside, hometown",inaka
+1083,25,大使館,たいしかん,தூதரகம்,embassy,taishikan
+1084,25,グループ,グループ,குழு,group,gurūpu
+1085,25,チャンス,チャンス,வாய்ப்பு,chance,chansu
+1086,25,億,おく,வைக்கும் / இடம்,hundred million,oku
+1087,25,もし～たら,もし～たら,~ ஆகும் என்றால்,if ~,moshi～tara
+1088,25,いくら ～でも,いくら ～でも,எவ்வளவு~ இருந்தாலும்,"however ~, even if ~",ikura ～demo
+1089,25,転勤,てんきん,பணியிட மாற்றம்,transfer,tenkin
+1090,25,転勤します,てんきんします,இடமாற்றப்படுகிறேன்,be transferred to another office,tenkinshimasu
+1091,25,こと,こと,விஷயம்,"thing, matter",koto
+1092,25,一杯飲みましょう,いっぱいのみましょう,நிறைய குடிப்போம்,Let's have a drink together,ippainomimashou
+1093,25,いろいろお世話になりました,いろいろおせわになりました,உதவி செய்ததற்கு நன்றி,Thank you for everything you have done for me,iroiroosewaninarimashita
+1094,25,頑張ります,がんばります,கடினமாக முயற்சி செய்கிறேன்,do one's best,ganbarimasu
+1095,25,どうぞお元気で,どうぞおげんきで,உடல்நலமாக இருங்கள்,Best of luck (said when expecting a long separation),douzoogenkide
