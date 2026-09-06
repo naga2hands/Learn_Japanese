@@ -1,6 +1,6 @@
 const state = {
   activeLesson: 1,
-  activeTab: 'சொற்றொடர் அமைப்பு',
+  activeTab: 'வாக்கிய அமைப்பு',
   tamilDisplay: 'Tamil_Natural',
   workbook: {
     learn: [],
@@ -74,7 +74,7 @@ function renderLessonNav() {
 }
 
 function renderTabBar() {
-  const tabs = ['சொற்றொடர் அமைப்பு', 'உதாரணச் சொற்றொடர்', 'பயிற்சி A', 'சொற்கள்', 'உரையாடல்', 'இலக்கணக் குறிப்பு'];
+  const tabs = ['வாக்கிய அமைப்பு', 'உதாரண வாக்கியம்', 'உரையாடல்', 'சொற்கள்', 'இலக்கணக் குறிப்பு'];
   const bar = document.getElementById('tab-bar');
 
   bar.innerHTML = tabs
@@ -102,15 +102,15 @@ function renderLessonContent() {
   introContainer.innerHTML = '';
 
   switch (state.activeTab) {
-    case 'சொற்றொடர் அமைப்பு':
+    case 'வாக்கிய அமைப்பு':
       content.innerHTML = renderSection('文型', 'ぶんけい', getRowsForSection('Bunkei'));
       break;
-    case 'உதாரணச் சொற்றொடர்':
+    case 'உதாரண வாக்கியம்':
       content.innerHTML = renderSection('例文', 'れいぶん', getRowsForSection('Reibun', state.workbook.reibun));
       break;
-    case 'பயிற்சி A':
-      content.innerHTML = renderRenshuuATemplate();
-      break;
+    // case 'பயிற்சி A':
+    //   content.innerHTML = renderRenshuuATemplate();
+    //   break;
     case 'சொற்கள்':
       content.innerHTML = renderVocabulary();
       break;
@@ -328,7 +328,6 @@ function renderVocabulary() {
     <div class="section-intro">
       <span class="kicker">言葉</span>
       <h2>ことば</h2>
-      <p>இந்தப் பகுதியில் உள்ள சொற்களை படித்து அர்த்தத்தை மனதில் இருத்துங்கள்.</p>
     </div>
     <div class="table-wrap">
       <table class="lesson-table">
