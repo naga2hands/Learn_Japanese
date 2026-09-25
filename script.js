@@ -58,7 +58,7 @@ function renderLessonNav() {
         aria-label="Open Lesson ${lessonNumber}"
       >
         ${lessonNumber}
-      </button>
+      </button> 
     `;
   }).join('');
 
