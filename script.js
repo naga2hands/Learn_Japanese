@@ -382,7 +382,7 @@ function renderGrammarNotes() {
               <td>${escapeHtml(row.SNO || row.sno || rows.indexOf(row) + 1)}</td>
 <!--              <td>${escapeHtml(row.JAPANESE || row.NOTES_TOPIC_J || '—')}</td> -->
 <!--              <td>${escapeHtml(row.TAMIL || row.NOTES_TOPIC_N || '—')}</td> -->
-              <td class="grammar-description">${escapeHtml(row.NOTES_DESCRIPTION || row.DESCRIPTION || '—')}</td>
+              <td class="grammar-description">${formatGrammarDescription(row.NOTES_DESCRIPTION || row.DESCRIPTION || '—')}</td>
             </tr>
           `).join('')}
         </tbody>
@@ -501,4 +501,10 @@ function escapeHtml(value) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
+}
+
+function formatGrammarDescription(value) {
+  return escapeHtml(value).replace(/\*\*(.+?)\*\*|\*(.+?)\*/gs, (_, doubleAsteriskContent, asteriskContent) => {
+    return `<strong>${doubleAsteriskContent ?? asteriskContent}</strong>`;
+  });
 }
