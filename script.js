@@ -372,7 +372,7 @@ function renderGrammarNotes() {
           <tr>
             <th>எண்</th>
 /*            <th>யப்பானியத்தில்</th> */
-/*            //<th>தமிழில்</th> */
+/*            <th>தமிழில்</th> */
             <th>விளக்கம்</th>
           </tr>
         </thead>
