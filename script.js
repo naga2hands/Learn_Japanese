@@ -371,8 +371,8 @@ function renderGrammarNotes() {
         <thead>
           <tr>
             <th>எண்</th>
-            <th>யப்பானியத்தில்</th>
-            <th>தமிழில்</th>
+            //<th>யப்பானியத்தில்</th>
+            //<th>தமிழில்</th>
             <th>விளக்கம்</th>
           </tr>
         </thead>
@@ -380,8 +380,8 @@ function renderGrammarNotes() {
           ${rows.map((row) => `
             <tr>
               <td>${escapeHtml(row.SNO || row.sno || rows.indexOf(row) + 1)}</td>
-              <td>${escapeHtml(row.JAPANESE || row.NOTES_TOPIC_J || '—')}</td>
-              <td>${escapeHtml(row.TAMIL || row.NOTES_TOPIC_N || '—')}</td>
+              //<td>${escapeHtml(row.JAPANESE || row.NOTES_TOPIC_J || '—')}</td>
+              //<td>${escapeHtml(row.TAMIL || row.NOTES_TOPIC_N || '—')}</td>
               <td class="grammar-description">${escapeHtml(row.NOTES_DESCRIPTION || row.DESCRIPTION || '—')}</td>
             </tr>
           `).join('')}
