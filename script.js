@@ -16,7 +16,7 @@ function applyPageScale() {
   const appShell = document.querySelector('.app-shell');
   const width = window.innerWidth;
   const devicePixelRatio = window.devicePixelRatio || 1;
-  const scale = width <= 1366 || devicePixelRatio >= 1.25 ? 0.75 : 0.9;
+  const scale = width <= 1366 || devicePixelRatio >= 1.25 ? 0.75 : 1;
 
   console.log('innerWidth:', width);
   console.log('devicePixelRatio:', devicePixelRatio);
@@ -175,8 +175,10 @@ function renderKaiwa() {
 
   return `
     <div class="section-intro">
-      <span class="kicker">会話</span>
-      <h2>かいわ</h2>
+      <h2 class="section-heading">
+        <span>会話</span>
+        <span>[かいわ]</span>
+      </h2>
     </div>
     <div class="kaiwa-toolbar">
       <button id="lesson-image-button" class="lesson-image-tile" type="button">
@@ -250,8 +252,10 @@ function renderSection(kickerTitle, headingTitle, rows) {
 
   return `
     <div class="section-intro">
-      <span class="kicker">${kickerTitle}</span>
-      <h2>${headingTitle}</h2>
+      <h2 class="section-heading">
+        <span>${kickerTitle}</span>
+        <span>[${headingTitle}]</span>
+      </h2>
       <div class="tamil-display-control" role="group" aria-label="Tamil column display">
         <span>தமிழ் பகுதி:</span>
         <label><input type="radio" name="tamil-display" value="Tamil_Natural" checked /> இயல்பான தமிழ்</label>
@@ -300,8 +304,10 @@ function renderRenshuuATemplate() {
 
   return `
     <div class="section-intro">
-      <span class="kicker">練習　A</span>
-      <h2>れんしゅ A</h2>
+      <h2 class="section-heading">
+        <span>練習　A</span>
+        <span>れんしゅう A</span>
+      </h2>
       <p>இந்தப் பகுதியில் உள்ள வாக்கியங்களை படித்து அர்த்தத்தை மனதில் இருத்துங்கள்.</p>
     </div>
     <div class="table-wrap">
@@ -347,8 +353,10 @@ function renderVocabulary() {
 
   return `
     <div class="section-intro">
-      <span class="kicker">言葉</span>
-      <h2>ことば</h2>
+      <h2 class="section-heading">
+        <span>言葉</span>
+        <span>[ことば]</span>
+      </h2>
     </div>
     <div class="table-wrap">
       <table class="lesson-table">
@@ -384,8 +392,10 @@ function renderGrammarNotes() {
 
   return `
     <div class="section-intro">
-      <span class="kicker">文法ノート</span>
-      <h2>ぶんほうノート</h2>
+      <h2 class="section-heading">
+        <span>文法ノート</span>
+        <span>[ぶんぽうノート]</span>
+      </h2>
     </div>
     <div class="table-wrap">
       <table class="lesson-table">

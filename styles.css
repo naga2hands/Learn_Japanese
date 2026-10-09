@@ -216,7 +216,11 @@ button {
   margin-bottom: 18px;
 }
 
-.section-intro h2 {
+.section-intro .section-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 12px;
   margin: 0 0 8px;
   font-size: clamp(1.4rem, 2vw, 1.9rem);
 }
