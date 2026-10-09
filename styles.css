@@ -18,6 +18,7 @@
 }
 
 html, body {
+  height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: var(--bg);
@@ -25,7 +26,7 @@ html, body {
 }
 
 body {
-  min-height: 100vh;
+  overflow: hidden;
 }
 
 button {
@@ -35,9 +36,9 @@ button {
 .app-shell {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 330px;
-  min-height: 100vh;
   height: 100%;
   min-width: 980px;
+  transform-origin: top left;
 }
 
 .lesson-sidebar {

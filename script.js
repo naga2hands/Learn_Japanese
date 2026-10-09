@@ -23,7 +23,7 @@ function applyPageScale() {
   console.log('screen.width:', window.screen.width);
 
   if (appShell) {
-    appShell.style.zoom = String(scale);
+    appShell.style.transform = `scale(${scale})`;
     appShell.style.width = `${width / scale}px`;
     appShell.style.height = `${window.innerHeight / scale}px`;
     console.log(`Applied ${scale * 100}% page scale`);
