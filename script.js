@@ -12,28 +12,26 @@ const state = {
   }
 };
 
-window.addEventListener('load', () => {
-  const content = document.querySelector('.lesson-content');
-  const sidebar = document.querySelector('.lesson-sidebar');
+function applyPageScale() {
+  const appShell = document.querySelector('.app-shell');
   const width = window.innerWidth;
   const devicePixelRatio = window.devicePixelRatio || 1;
+  const scale = width <= 1366 || devicePixelRatio >= 1.25 ? 0.75 : 0.9;
 
   console.log('innerWidth:', width);
   console.log('devicePixelRatio:', devicePixelRatio);
   console.log('screen.width:', window.screen.width);
 
-  if (content && sidebar) {
-    if (width <= 1366 || devicePixelRatio >= 1.25) {
-      content.style.zoom = '65%';
-      sidebar.style.zoom = '80%';
-      console.log('Applied laptop scale');
-    } else {
-      content.style.zoom = '100%';
-      sidebar.style.zoom = '90%';
-      console.log('Applied normal scale1');
-    }
+  if (appShell) {
+    appShell.style.zoom = String(scale);
+    appShell.style.width = `${width / scale}px`;
+    appShell.style.height = `${window.innerHeight / scale}px`;
+    console.log(`Applied ${scale * 100}% page scale`);
   }
-});
+}
+
+window.addEventListener('load', applyPageScale);
+window.addEventListener('resize', applyPageScale);
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
