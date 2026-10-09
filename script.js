@@ -12,6 +12,29 @@ const state = {
   }
 };
 
+window.addEventListener('load', () => {
+  const content = document.querySelector('.lesson-content');
+  const sidebar = document.querySelector('.lesson-sidebar');
+  const width = window.innerWidth;
+  const devicePixelRatio = window.devicePixelRatio || 1;
+
+  console.log('innerWidth:', width);
+  console.log('devicePixelRatio:', devicePixelRatio);
+  console.log('screen.width:', window.screen.width);
+
+  if (content && sidebar) {
+    if (width <= 1366 || devicePixelRatio >= 1.25) {
+      content.style.zoom = '65%';
+      sidebar.style.zoom = '80%';
+      console.log('Applied laptop scale');
+    } else {
+      content.style.zoom = '100%';
+      sidebar.style.zoom = '90%';
+      console.log('Applied normal scale1');
+    }
+  }
+});
+
 document.addEventListener('DOMContentLoaded', async () => {
   try {
     const [learnCsv, reibunCsv, vocabCsv, renshuuCsv, grammarNotesCsv, kaiwaCsv] = await Promise.all([
