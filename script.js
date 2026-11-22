@@ -72,7 +72,7 @@ function renderLessonNav() {
   const buttons = Array.from({ length: 25 }, (_, index) => {
     const lessonNumber = index + 1;
     const activeClass = lessonNumber === state.activeLesson ? 'active' : '';
-    return `
+    const lessonButton = `
       <button
         class="lesson-tile ${activeClass}"
         data-lesson="${lessonNumber}"
@@ -81,6 +81,11 @@ function renderLessonNav() {
         ${lessonNumber}
       </button> 
     `;
+    const divider = lessonNumber === 25
+      ? '<div class="lesson-divider" aria-hidden="true"></div>'
+      : '';
+
+    return lessonButton + divider;
   }).join('');
 
   nav.innerHTML = buttons;

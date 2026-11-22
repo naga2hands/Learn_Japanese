@@ -72,7 +72,7 @@ button {
   gap: 12px;
   align-content: start;
   width: 100%;
-  grid-auto-rows: 1fr;
+  grid-auto-rows: max-content;
 }
 
 .lesson-tile {
@@ -104,6 +104,13 @@ button {
   background: #fff;
   color: var(--sidebar);
   border-color: #fff;
+}
+
+.lesson-divider {
+  grid-column: 1 / -1;
+  height: 1px;
+  margin: 2px 0;
+  background: rgba(255, 255, 255, 0.35);
 }
 
 .main-panel {
