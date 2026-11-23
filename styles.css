@@ -35,7 +35,7 @@ button {
 
 .app-shell {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 330px;
+  grid-template-columns: minmax(0, 1fr) 382px;
   height: 100%;
   min-width: 980px;
   transform-origin: top left;
@@ -45,13 +45,15 @@ button {
   background: linear-gradient(180deg, var(--sidebar), var(--sidebar-accent));
   color: white;
   padding: 24px 14px;
+  display: flex;
+  flex-direction: column;
   position: sticky;
   top: 0;
   height: 100%;
   overflow: hidden;
   order: 2;
-  width: 330px;
-  min-width: 330px;
+  width: 382px;
+  min-width: 382px;
   justify-self: end;
 }
 
@@ -71,6 +73,9 @@ button {
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 12px;
   align-content: start;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
   width: 100%;
   grid-auto-rows: max-content;
 }
@@ -460,16 +465,16 @@ button {
 
 @media (max-width: 900px) {
   .app-shell {
-    grid-template-columns: minmax(0, 1fr) 330px;
-    min-width: 330px;
+    grid-template-columns: minmax(0, 1fr) 382px;
+    min-width: 382px;
   }
 
   .lesson-sidebar {
     position: sticky;
     height: 100%;
     padding: 18px 16px;
-    width: 330px;
-    min-width: 330px;
+    width: 382px;
+    min-width: 382px;
   }
 
   .lesson-nav {

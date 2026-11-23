@@ -539,9 +539,9 @@
 538,11,いくつ,いくつ,எத்தனை?,how many,ikutsu
 539,11,一人,ひとり,ஒருவர்,one person,hitori
 540,11,二人,ふたり,இருவர்,two people,futari
-541,11,～人,～にん,- பேர் (மக்கள் எண்ணிக்கை),~ people,～nin
-542,11,～台,～だい,- வாகனங்கள் எண்ணிக்கை,"(counter for machines, cars, etc.)",～dai
-543,11,～枚,～まい,"- மெல்லிய பொருட்கள் (காகிதம், பீஸ்கள்)","(counter for paper, stamps, etc.)",～mai
+541,11,～人,～にん,#NAME?,~ people,～nin
+542,11,～台,～だい,#NAME?,"(counter for machines, cars, etc.)",～dai
+543,11,～枚,～まい,#NAME?,"(counter for paper, stamps, etc.)",～mai
 544,11,～回,～かい,#NAME?,~ times,～kai
 545,11,りんご,りんご,ஆப்பிள்,apple,ringo
 546,11,みかん,みかん,ஆரஞ்ச்,mandarin orange,mikan
@@ -568,15 +568,15 @@
 567,11,妹,いもうと,தங்கை,(my) younger sister,imouto
 568,11,妹さん,いもうとさん,தங்கை (மற்றவருடைய),(someone else's) younger sister,imoutosan
 569,11,外国,がいこく,வெளிநாடு,foreign country,gaikoku
-570,11,～時間,～じかん,- மணி நேரம்,~ hours,～jikan
-571,11,～週間,～しゅうかん,- வாரங்கள்,~ weeks,～shuukan
-572,11,～か月,～かげつ,- மாதங்கள்,~ months,～kagetsu
-573,11,～年,～ねん,- ஆண்டுகள்,~ years,～nen
-574,11,～ぐらい,～ぐらい,- சுமார்,about ~,～gurai
+570,11,～時間,～じかん,#NAME?,~ hours,～jikan
+571,11,～週間,～しゅうかん,#NAME?,~ weeks,～shuukan
+572,11,～か月,～かげつ,#NAME?,~ months,～kagetsu
+573,11,～年,～ねん,#NAME?,~ years,～nen
+574,11,～ぐらい,～ぐらい,#NAME?,about ~,～gurai
 575,11,どのくらい,どのくらい,எவ்வளவு நேரம்?,how long,donokurai
 576,11,全部で,ぜんぶで,மொத்தம்,in total,zenbude
 577,11,みんな,みんな,அனைவரும்,"all, everything",minna
-578,11,～だけ,～だけ,- மட்டும்,only ~,～dake
+578,11,～だけ,～だけ,#NAME?,only ~,～dake
 579,11,いらしゃいませ,いらしゃいませ,வரவேற்கிறோம்,"Welcome, May I help you? (a greeting to a customer or a guest entering a shop, etc.)",irashaimase
 580,11,いい天気ですね,いいてんきですね,"நல்ல வானிலை, அல்லவா?","Nice weather, isn't it?",iitenkidesune
 581,11,お出かけですか,おでかけですか,வெளியே போகிறீர்களா?,Are you going out?,odekakedesuka
@@ -671,7 +671,7 @@
 670,13,登録,とうろく,பதிவுசெய்தல்,registration,touroku
 671,13,登録をします,とうろくをします,பதிவு செய்கிறேன்,register,touroku o shimasu
 672,13,週末,しゅうまつ,வார இறுதி,weekend,shuumatsu
-673,13,～ごろ,～ごろ,- நேரம் சுமார்,about (time),～goro
+673,13,～ごろ,～ごろ,#NAME?,about (time),～goro
 674,13,何か,なにか,ஏதாவது,something,nanika
 675,13,どこか,どこか,எங்காவது,"somewhere, some place",dokoka
 676,13,おなかがすきました,おなかがすきました,பசிக்கிறது,(I'm) hungry,onakagasukimashita
@@ -714,7 +714,7 @@
 713,14,塩,しお,உப்பு,salt,shio
 714,14,砂糖,さとう,சர்க்கரை,sugar,satou
 715,14,読み方,よみかた,வாசிக்கும் முறை,"how to read, way of reading",yomikata
-716,14,～方,～かた,- செய்வது எப்படி,"how to ~, way of ~ing",～kata
+716,14,～方,～かた,#NAME?,"how to ~, way of ~ing",～kata
 717,14,ゆっくり,ゆっくり,மெதுவாக,"slowly, leisurely",yukkuri
 718,14,すぐ,すぐ,உடனே,immediately,sugu
 719,14,また,また,மறுபடியும்,again,mata
@@ -799,7 +799,7 @@
 798,16,寺,てら,புத்த கோவில்,Buddhist temple,tera
 799,16,神社,じんじゃ,ஷின்டோ கோவில்,Shinto shrine,jinja
 800,16,留学生,りゅうがくせい,வெளிநாட்டு மாணவர்,foreign student,ryuugakusei
-801,16,～番,～ばん,-வது (எண்),number ~,～ban
+801,16,～番,～ばん,#NAME?,number ~,～ban
 802,16,どうやって,どうやって,எப்படி,"in what way, how",douyatte
 803,16,どの～,どの～,எந்த,which ~ (used for three or more),dono～
 804,16,いいえまだまだです,いいえまだまだです,"இல்லை, இன்னும் இல்லை","No, I still have a long way to go",iiemadamadadesu
@@ -849,10 +849,10 @@
 848,17,上着,うわぎ,மேலுடை,"jacket, outerwear",uwagi
 849,17,下着,したぎ,உட்சட்டை,underwear,shitagi
 850,17,先生,せんせい,ஆசிரியர்,doctor (used when addressing a medical doctor),sensei
-851,17,～までに,～までに,-க்குள் (காலக்கெடு),"before ~, by ~ (indicating time limit)",～madeni
+851,17,～までに,～までに,#NAME?,"before ~, by ~ (indicating time limit)",～madeni
 852,17,ですから,ですから,அதனால்,"therefore, so",desukara
 853,17,どうしましたか,どうしましたか,என்ன ஆனது?,What's the matter?,doushimashitaka
-854,17,～が痛いです,～がいたいです,- வலிக்கிறது,have a pain in my ~,～gaitaidesu
+854,17,～が痛いです,～がいたいです,#NAME?,have a pain in my ~,～gaitaidesu
 855,17,のど,のど,தொண்டை,throat,nodo
 856,17,お大事に,おだいじに,உடல் நலனைக் கவனித்துக் கொள்ளுங்கள்,Take care of yourself (said to people who are ill),odaijini
 857,18,できます,できます,முடியும்,"be able to, can",dekimasu
@@ -866,7 +866,7 @@
 865,18,予約します,よやくします,முன்பதிவு செய்கிறேன்,"reserve, book",yoyakushimasu
 866,18,見学します,けんがくします,சுற்றிப் பார்க்கிறேன்,visit some place for study,kengakushimasu
 867,18,ピアノ,ピアノ,பியானோ,piano,piano
-868,18,～メートル,～メートル,- மீட்டர்,~ meter,～mētoru
+868,18,～メートル,～メートル,#NAME?,~ meter,～mētoru
 869,18,国際～,こくさい～,சர்வதேச,international ~,kokusai～
 870,18,現金,げんきん,பணம் (நகட்பணம்),cash,genkin
 871,18,趣味,しゅみ,பொழுதுபோக்கு,hobby,shumi
@@ -1084,7 +1084,7 @@
 1083,25,大使館,たいしかん,தூதரகம்,embassy,taishikan
 1084,25,グループ,グループ,குழு,group,gurūpu
 1085,25,チャンス,チャンス,வாய்ப்பு,chance,chansu
-1086,25,億,おく,வைக்கும் / இடம்,hundred million,oku
+1086,25,億,おく,பத்து கோடி / நூறு மில்லியன்,hundred million,oku
 1087,25,もし～たら,もし～たら,~ ஆகும் என்றால்,if ~,moshi～tara
 1088,25,いくら ～でも,いくら ～でも,எவ்வளவு~ இருந்தாலும்,"however ~, even if ~",ikura ～demo
 1089,25,転勤,てんきん,பணியிட மாற்றம்,transfer,tenkin

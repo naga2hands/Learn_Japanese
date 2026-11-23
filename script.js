@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function renderLessonNav() {
   const nav = document.getElementById('lesson-nav');
-  const buttons = Array.from({ length: 50 }, (_, index) => {
+  const buttons = Array.from({ length: 25 }, (_, index) => {
     const lessonNumber = index + 1;
     const activeClass = lessonNumber === state.activeLesson ? 'active' : '';
     const lessonButton = `
@@ -81,7 +81,7 @@ function renderLessonNav() {
         ${lessonNumber}
       </button> 
     `;
-    const divider = lessonNumber === 25
+    const divider = lessonNumber % 25 === 0
       ? '<div class="lesson-divider" aria-hidden="true"></div>'
       : '';
 
